@@ -1,11 +1,11 @@
-WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+WA.chat.sendChatMessage('Hello world, I run in the script in the maps folder, update', 'Mr Robot');
 
 
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterZone('zone_pop_silent_room_bottom_center', () => {
-    WA.ui.openPopup("pop_silent_room_center_bottom", 'Hello world!', [{
+helloWorldPopup = WA.room.onEnterZone('zonePopTest', () => {
+    WA.ui.openPopup("myPopup1", 'Hello world!', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -14,6 +14,14 @@ helloWorldPopup = WA.room.onEnterZone('zone_pop_silent_room_bottom_center', () =
 }}])});
 
 // Close the popup when we leave the zone.
-WA.room.onLeaveZone('zone_pop_silent_room_bottom_center', () => {
+WA.room.onLeaveZone('zonePopTest', () => {
     helloWorldPopup.close();
 });
+
+WA.room.onEnterZone('myZone', () => {
+    WA.chat.sendChatMessage("Hello!", 'Mr Robot');
+})
+
+WA.room.onLeaveZone('myZone', () => {
+    WA.chat.sendChatMessage("Goodbye!", 'Mr Robot');
+})
