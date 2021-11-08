@@ -125,7 +125,7 @@
                 {
                  "name":"start",
                  "type":"string",
-                 "value":"entry-point-spawn"
+                 "value":"entry-point-forum"
                 }, 
                 {
                  "name":"startLayer",
