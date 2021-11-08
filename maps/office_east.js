@@ -1,4 +1,4 @@
-WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+WA.chat.sendChatMessage('Hello world, I run in the script in the maps folder', 'Mr Robot');
 
 
 let helloWorldPopup;
