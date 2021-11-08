@@ -433,7 +433,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_OfficeEast"
                 }],
          "type":"tilelayer",
          "visible":false,
