@@ -1,7 +1,7 @@
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterZone('zone_pop_silent_room_bottom_center', () => {
+helloWorldPopup = WA.room.onEnterZone('pop_starter', () => {
     WA.ui.openPopup("pop_silent_room_center_bottom", 'Hello world!', [{
         label: "Close",
         className: "primary",
@@ -11,6 +11,6 @@ helloWorldPopup = WA.room.onEnterZone('zone_pop_silent_room_bottom_center', () =
 }}])});
 
 // Close the popup when we leave the zone.
-WA.room.onLeaveZone('zone_pop_silent_room_bottom_center', () => {
+WA.room.onLeaveZone('pop_starter', () => {
     helloWorldPopup.close();
 });
