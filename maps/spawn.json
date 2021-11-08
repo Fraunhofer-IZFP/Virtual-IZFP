@@ -125,7 +125,7 @@
                 {
                  "name":"start",
                  "type":"string",
-                 "value":"entry-point-forum"
+                 "value":"entry-point-spawn"
                 }, 
                 {
                  "name":"startLayer",
@@ -561,7 +561,7 @@
          "name":"waterfall_",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":32,
          "x":0,
          "y":0
@@ -573,7 +573,7 @@
          "name":"waterfall",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":32,
          "x":0,
          "y":0
