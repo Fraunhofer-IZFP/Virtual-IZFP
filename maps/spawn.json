@@ -84,7 +84,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"office_east.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officeeast"
                 }],
          "type":"tilelayer",
          "visible":true,
