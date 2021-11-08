@@ -120,7 +120,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -156,7 +156,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -177,7 +177,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/funarea"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -190,9 +190,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"entry",
-                 "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn"
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
