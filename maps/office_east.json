@@ -302,7 +302,7 @@
                 {
                  "height":72,
                  "id":11,
-                 "name":"pop_silent_room_center_bottom",
+                 "name":"myPopup1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
