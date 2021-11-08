@@ -120,7 +120,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":false
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -156,7 +156,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":false
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -213,7 +213,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/forum"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
