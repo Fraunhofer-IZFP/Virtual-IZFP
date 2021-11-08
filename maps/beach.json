@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry-point-beach"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_Beach"
                 }],
          "type":"tilelayer",
          "visible":true,
