@@ -288,6 +288,12 @@
          "id":53,
          "name":"pop_silent_area",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"silent_zone_pop_bottom"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
