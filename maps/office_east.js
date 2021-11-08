@@ -24,7 +24,7 @@ var quotes_goethe= [
 
 function display_random_goethe_quote(){
 	var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
-	WA.chat.sendChatMessage(quotes_goethe[quote_index], 'Johann Wolfgang von Goethe');
+	WA.chat.sendChatMessage(quotes_goethe[quote_index], "Johann Wolfgang von Goethe");
 }
 
 
