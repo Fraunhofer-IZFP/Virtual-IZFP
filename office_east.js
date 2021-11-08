@@ -8,9 +8,7 @@ helloWorldPopup = WA.room.onEnterZone('zone_pop_silent_room_bottom_center', () =
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
-        }
-    });
-}]);
+}}])});
 
 // Close the popup when we leave the zone.
 WA.room.onLeaveZone('zone_pop_silent_room_bottom_center', () => {
