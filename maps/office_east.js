@@ -12,13 +12,19 @@ WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
 
 
 var quotes_goethe= [
-	'test1',
-	'test2'
+	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
+	'Es hört doch nur jeder, was er versteht.',
+	'Mit dem Wissen wächst der Zweifel.',
+	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
+	'Man reist nicht um anzukommen, sondern um zu reisen.',
+	'Wer nicht neugierig ist, erfährt nichts.',
+	'Jede Lösung eines Problems ist ein neues Problem.',
+	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.',	
 	]
 
 function display_random_goethe_quote(){
 	var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
-	WA.chat.sendChatMessage(quotes_goethe[quote_index], 'Goethe');
+	WA.chat.sendChatMessage(quotes_goethe[quote_index], 'Johann Wolfgang von Goethe');
 }
 
 
