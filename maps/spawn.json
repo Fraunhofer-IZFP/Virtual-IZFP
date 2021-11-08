@@ -66,7 +66,7 @@
                 {
                  "name":"entry",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/beach"
+                 "value":"#EntryFromBeach"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -105,7 +105,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/beach"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
