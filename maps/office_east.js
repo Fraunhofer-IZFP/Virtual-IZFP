@@ -24,3 +24,11 @@ WA.room.onEnterZone('pop_picnic_area', () => {
 WA.room.onEnterZone('pop_cowork', () => {
     WA.chat.sendChatMessage("Here coworking / chill-out spaces are located!", 'Map guide');
 })
+
+WA.room.onEnterZone('pop_office_west', () => {
+    WA.chat.sendChatMessage("This passage leads to the western offices!", 'Map guide');
+})
+
+WA.room.onEnterZone('pop_spawn', () => {
+    WA.chat.sendChatMessage("This passage leads to the center area!", 'Map guide');
+})
