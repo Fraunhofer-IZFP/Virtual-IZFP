@@ -23,7 +23,7 @@ function display_random_goethe_quote(){
 
 
 WA.room.onEnterZone('zone_goethe', () => {
-    WA.chat.sendChatMessage(display_random_goethe_quote(), 'Map guide');
+    display_random_goethe_quote();
 })
 
 
