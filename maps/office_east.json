@@ -309,6 +309,17 @@
                  "width":175.5,
                  "x":1245.5,
                  "y":1438.5
+                }, 
+                {
+                 "height":38,
+                 "id":12,
+                 "name":"pop_starter",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":59.3333333333333,
+                 "x":1231.33333333333,
+                 "y":1514
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -317,7 +328,7 @@
          "y":0
         }],
  "nextlayerid":54,
- "nextobjectid":12,
+ "nextobjectid":13,
  "orientation":"orthogonal",
  "properties":[
         {
