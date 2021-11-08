@@ -32,6 +32,10 @@ WA.room.onEnterZone('zone_goethe', () => {
     display_random_goethe_quote();
 })
 
+WA.room.onEnterZone('zone_goethe_2', () => {
+    WA.chat.sendChatMessage("This sign says: Goethe has (never) been here.", 'Map guide');
+})
+
 
 WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
