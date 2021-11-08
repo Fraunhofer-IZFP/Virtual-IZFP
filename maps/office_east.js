@@ -18,10 +18,10 @@ WA.room.onLeaveZone('zonePopTest', () => {
     helloWorldPopup.close();
 });
 
-WA.room.onEnterZone('myZone', () => {
+WA.room.onEnterZone('zonePopTest', () => {
     WA.chat.sendChatMessage("Hello!", 'Mr Robot');
 })
 
-WA.room.onLeaveZone('myZone', () => {
+WA.room.onLeaveZone('zonePopTest', () => {
     WA.chat.sendChatMessage("Goodbye!", 'Mr Robot');
 })
