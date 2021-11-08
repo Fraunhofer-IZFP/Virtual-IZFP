@@ -27,7 +27,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_Beach"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -39,7 +39,7 @@
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -80,7 +80,7 @@
                  "value":25
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -98,7 +98,7 @@
                  "value":"MeetingRoom"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -121,7 +121,7 @@
                  "value":"onaction"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -133,7 +133,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -145,7 +145,7 @@
          "name":"water",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -157,7 +157,7 @@
          "name":"water_decorations",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -169,7 +169,7 @@
          "name":"above_water_decorations",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -181,7 +181,7 @@
          "name":"walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -193,7 +193,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -205,7 +205,7 @@
          "name":"aboveFurniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -217,7 +217,7 @@
          "name":"floor_decoration_below",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -229,7 +229,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -240,7 +240,7 @@
          "name":"floor_decoration_above",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -252,7 +252,7 @@
          "name":"abovePlayer1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -264,7 +264,7 @@
          "name":"abovePlayer2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -276,7 +276,7 @@
          "name":"abovePlayer3",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":32,
          "x":0,
          "y":0
@@ -363,35 +363,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":6
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":14
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":22
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":30
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":38
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":46
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":54
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":62
                         }],
                  "id":6
@@ -399,35 +399,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":7
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":15
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":23
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":31
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":39
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":47
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":55
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":63
                         }],
                  "id":7
@@ -435,35 +435,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":70
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":78
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":86
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":94
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":102
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":110
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":118
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":126
                         }],
                  "id":70
@@ -471,35 +471,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":71
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":79
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":87
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":95
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":103
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":111
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":119
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":127
                         }],
                  "id":71
@@ -507,35 +507,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":135
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":143
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":151
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":159
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":167
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":175
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":183
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":191
                         }],
                  "id":135
@@ -543,35 +543,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":196
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":204
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":212
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":220
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":228
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":236
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":244
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":252
                         }],
                  "id":196
@@ -579,35 +579,35 @@
                 {
                  "animation":[
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":260
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":268
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":276
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":284
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":292
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":300
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":308
                         }, 
                         {
-                         "duration":100,
+                         "duration":300,
                          "tileid":316
                         }],
                  "id":260
