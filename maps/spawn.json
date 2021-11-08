@@ -66,7 +66,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"beach.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/beach"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -102,7 +102,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"office_west.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -120,7 +120,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"fun_area.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/funarea"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -138,7 +138,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"forum.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/forum"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -156,7 +156,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"museum.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/museum"
                 }],
          "type":"tilelayer",
          "visible":true,
