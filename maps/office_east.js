@@ -9,6 +9,24 @@ WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
     helloWorldPopup.close();
 });*/
 
+
+
+var quotes_goethe= [
+	'test1',
+	'test2'
+	]
+
+function display_random_goethe_quote(){
+	var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
+	WA.chat.sendChatMessage(quotes_goethe[quote_index], 'Goethe');
+}
+
+
+WA.room.onEnterZone('zone_goethe', () => {
+    WA.chat.sendChatMessage(display_random_goethe_quote(), 'Map guide');
+})
+
+
 WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 })
