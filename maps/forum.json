@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn.json#entry_forum"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_Forum"
                 }],
          "type":"tilelayer",
          "visible":false,
