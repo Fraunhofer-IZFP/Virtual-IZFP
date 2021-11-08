@@ -1,5 +1,3 @@
-WA.chat.sendChatMessage('Hello world', 'Mr Robot');
-
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
