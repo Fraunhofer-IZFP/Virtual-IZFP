@@ -162,7 +162,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/funarea"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/funarea#start"
                 }],
          "type":"tilelayer",
          "visible":true,
