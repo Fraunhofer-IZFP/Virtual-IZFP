@@ -9,6 +9,9 @@ WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
     helloWorldPopup.close();
 });*/
 
+WA.chat.sendChatMessage('Hello world', 'Mr Robot1');
+WA.chat.sendChatMessage('Hello world', 'Mr Robot2');
+
 
 
 var quotes_goethe= [
