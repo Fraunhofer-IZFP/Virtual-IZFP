@@ -8,7 +8,10 @@ msg_storage = 'Storage'
 msg_castle_garden = 'The orchard'
 msg_picknick = 'The forest workspace'
 msg_coworking = 'Co-working and chill-out areas'
-msg_orientation = 'Castle red table room: west\n Castle music room south\n Orchard: north-west\n forest lodge: north-east\n meeting area: north east\n forest workspace: east\nsilent area:center'
+//msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
+msg_orientation = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest workspace\nSouth:Music room castle\nWest: castle red table\nCenter: silent area'
+
+
 
 
 var quotes_goethe= [
