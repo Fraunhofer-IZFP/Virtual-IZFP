@@ -1,48 +1,11 @@
-var isFirstTimeTuto = false;
-var textFirstPopup = 'Hey ! This is how to start a discussion with someone ! You can be 4 max in a bubble.';
-var textSecondPopup = 'You can also use the chat to communicate ! ';
-var targetObjectTutoBubble ='Tutobubble';
-var targetObjectTutoChat ='tutoChat';
 var targetObjectTutoExplanation ='tutoExplanation';
 var popUpExplanation = undefined;
-function launchTuto (){
-    WA.openPopup(targetObjectTutoBubble, textFirstPopup, [
-        {
-            label: "Close",
-            className: "popUpElement",
-            callback: (popup) => {
-                popup.close();
-
-                WA.openPopup(targetObjectTutoChat, textSecondPopup, [
-                    {
-                        label: "Open Chat",
-                        className: "popUpElement",
-                        callback: (popup1) => {
-                            WA.sendChatMessage("Hey you can talk here too!", 'WA Guide');
-                            popup1.close();
-                            WA.openPopup("TutoFinal","You are good to go! Go through the gate to meet the dev team and discover the features !",[
-                                {
-                                    label: "Got it!",
-                                    className : "success",callback:(popup2 => {
-                                        popup2.close();
-                                    })
-                                }
-                            ])
-                        }
-                    }
-
-                ])
-            }
-        }
-    ]);
-
-}
 
 
 WA.onEnterZone('silent_zone_pop_bottom', () => {
-	WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
+	//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 	
-	popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent zone', [
+	popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent area', [
 		{
 			label: "Close",
 			className: "popUpElement",
