@@ -15,4 +15,4 @@ helloWorldPopup = WA.room.onEnterZone("popup_sign_entry").subscribe(() => {
 
 WA.room.onLeaveZone("popup_sign_entry").subscribe(() => {
     helloWorldPopup.close();
-}
+});
