@@ -1,4 +1,4 @@
-let helloWorldPopup;
+//let helloWorldPopup;
 /*
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.room.onEnterZone('silent_zone_pop_bottom', () => {
@@ -9,8 +9,6 @@ WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
     helloWorldPopup.close();
 });*/
 
-
-let helloWorldPopup;
 
 // Open the popup when we enter a given zone
 /*helloWorldPopup = WA.room.onEnterLayer("silent_zone_pop_bottom").subscribe(() => {
