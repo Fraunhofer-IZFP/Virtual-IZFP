@@ -1,11 +1,11 @@
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterZone('pop_silent_area', () => {
+helloWorldPopup = WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.ui.openPopup("myPopup1", 'Hello world!', [])});
 
 // Close the popup when we leave the zone.
-WA.room.onLeaveZone('pop_silent_area', () => {
+WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
     helloWorldPopup.close();
 });
 
@@ -37,7 +37,7 @@ WA.room.onEnterZone('zone_goethe_2', () => {
 })
 
 
-WA.room.onEnterZone('pop_silent_area', () => {
+WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 })
 
