@@ -288,12 +288,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/kickelhahn.panomax.com"
-                }, 
-                {
-                 "name":"openWebsiteWidth",
-                 "type":"int",
-                 "value":200
+                 "value":"https:\/\/pss.wsv.de\/itzbund\/webcam\/ilmenau.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -312,11 +307,6 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/24hHD.webm"
-                }, 
-                {
-                 "name":"openWebsiteWidth",
-                 "type":"int",
-                 "value":200
                 }],
          "type":"tilelayer",
          "visible":true,
