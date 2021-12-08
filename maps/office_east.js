@@ -1,7 +1,11 @@
 // important variables
 
-msg_silent_area = 'This bridge leads to the silent area'
-msg_forest_lodge = 'This is the forest lodge'
+msg_silent_area = 'Silent area'
+msg_forest_lodge = 'Forest lodge'
+msg_music_room = 'Music room'
+msg_throne_room = 'The red table room'
+msg_storage = 'Storage'
+msg_castle_garden = 'Orchard'
 
 
 
@@ -46,13 +50,29 @@ function generate_popup(target_zone, target_rectangle, popup_text){
 
 // pop-up-generation
 generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
+generate_popup('silent_zone_pop_left', 'rect_silent_left', msg_silent_area)
+generate_popup('silent_zone_pop_right', 'rect_silent_right', msg_silent_area)
 generate_popup('zone_goethe', 'tutoChat', 'test')
+
+rect_silent_right
 
 
 generate_popup('pop_forest_house_left', 'pop_forest_lodge_left', msg_forest_lodge)
 generate_popup('pop_forest_house_right', 'pop_forest_lodge_right', msg_forest_lodge)
 
+generate_popup('pop_music_room', 'rect_music_room', msg_music_room)
 
+generate_popup('pop_throne_room', 'rect_throne_room', msg_throne_room)
+
+generate_popup('pop_storage', 'rect_storage', msg_storage)
+
+generate_popup('pop_castle_garden_right', 'rect_castle_garden_right', msg_castle_garden)
+generate_popup('pop_castle_garden_left', 'rect_castle_garden_left', msg_castle_garden)
+
+generate_popup('pop_picknick_top', 'rect_picknick_top', msg_picknick)
+generate_popup('pop_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
+
+generate_popup('pop_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
 
 function display_random_goethe_quote(){
