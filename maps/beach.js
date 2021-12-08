@@ -3,8 +3,8 @@ var popUpSign = undefined;
 var targetObjectFisherman ='PopupFisherman';
 var popUpFisherman = undefined;
 
-WA.onEnterZone('popup_sign_entry', () => {
-	popUpSign = WA.openPopup(targetObjectSign, 'Baderegeln:\n Hier herrscht Stille. Absolute Stille!', [
+function showPopup(target, content) {
+  popUpSign = WA.openPopup(target, content, [
 		{
 			label: "Close",
 			className: "popUpElement",
@@ -12,9 +12,25 @@ WA.onEnterZone('popup_sign_entry', () => {
 				popup.close();
 			}
 		}
-	])
-});
+	]);
+	return popUpSign;
+}
 
+// WA.onEnterZone('popup_sign_entry', () => {
+	// popUpSign = WA.openPopup(targetObjectSign, 'Baderegeln:\n Hier herrscht Stille. Absolute Stille!', [
+		// {
+			// label: "Close",
+			// className: "popUpElement",
+			// callback: (popup) => {
+				// popup.close();
+			// }
+		// }
+	// ])
+// });
+
+WA.onEnterZone('popup_sign_entry', () => {
+	popUpSign = showPopup(targetObjectSign, 'Baderegeln:\n Hier herrscht Stille. Absolute Stille!');
+});
 WA.onLeaveZone('popup_sign_entry', () => {
     if (popUpSign !== undefined) popUpSign.close();
 })
@@ -51,11 +67,4 @@ WA.onLeaveZone('popup_fisherman', () => {
 })
 
 
-function display_random_fishing_quote(){
-	var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-	WA.chat.sendChatMessage(quotes_fishing[quote_index], "Johann Wolfgang von Goethe");
-}
 
-// WA.room.onEnterZone('popup_sign_entry', () => {
-    // WA.chat.sendChatMessage("Hier herrscht Stille. Absolute Stille!", 'Baderegeln');
-// })
