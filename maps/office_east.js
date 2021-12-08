@@ -7,7 +7,7 @@ msg_throne_room = 'The red table room'
 msg_storage = 'Storage'
 msg_castle_garden = 'The orchard'
 msg_picknick = 'The forest workspace'
-msg_coworking = 'Co-working and chill-out'
+msg_coworking = 'Co-working and chill-out areas'
 
 
 var quotes_goethe= [
@@ -69,7 +69,6 @@ function display_random_goethe_quote(target_zone, target_rectangle){
 generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
 generate_popup('silent_zone_pop_left', 'rect_silent_left', msg_silent_area)
 generate_popup('silent_zone_pop_right', 'rect_silent_right', msg_silent_area)
-generate_popup('zone_goethe', 'tutoChat', 'test')
 
 generate_popup('pop_forest_house_left', 'pop_forest_lodge_left', msg_forest_lodge)
 generate_popup('pop_forest_house_right', 'pop_forest_lodge_right', msg_forest_lodge)
@@ -83,12 +82,12 @@ generate_popup('pop_storage', 'rect_storage', msg_storage)
 generate_popup('pop_castle_garden_right', 'rect_castle_garden_right', msg_castle_garden)
 generate_popup('pop_castle_garden_left', 'rect_castle_garden_left', msg_castle_garden)
 
-generate_popup('pop_picknick_top', 'rect_picknick_top', msg_picknick)
-generate_popup('pop_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
+generate_popup('zone_picknick_top', 'rect_picknick_top', msg_picknick)
+generate_popup('zone_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
-generate_popup('pop_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
+generate_popup('zone_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
 display_random_goethe_quote('zone_goethe', 'rect_goethe_quotes')
 
