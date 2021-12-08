@@ -26,12 +26,24 @@ function showPopup(target_zone, target_rectangle, popup_content){
 		if (popUpInstance !== undefined) popUpInstance.close();
 	})
 }
-function showRandomFishermanQuote() {
-	var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-	showPopup('popup_fisherman', 'PopupFisherman', quotes_fishing[quote_index])
+
+function showRandomFishermanQuote(target_zone, target_rectangle){
+	var popUpInstance = undefined;
+	WA.onEnterZone(target_zone, () => {
+		var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
+		popUpInstance = WA.openPopup(target_rectangle, quotes_fishing[quote_index], [])
+	});
+	WA.onLeaveZone(target_zone, () => {
+		if (popUpInstance !== undefined) popUpInstance.close();
+	})
 }
 
-showRandomFishermanQuote()
+// function showRandomFishermanQuote() {
+	// var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
+	// showPopup('popup_fisherman', 'PopupFisherman', quotes_fishing[quote_index])
+// }
+
+showRandomFishermanQuote(popup_fisherman, PopupFisherman)
 showPopup('popup_sign_entry', 'PopupSign', 'Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!')
 
 
