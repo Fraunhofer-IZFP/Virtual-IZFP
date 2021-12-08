@@ -29,6 +29,11 @@ WA.room.onLeaveLayer("silent_zone_pop_bottom").subscribe(() => {
 
 
 
+
+
+
+
+
 var quotes_goethe= [
 	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
 	'Es hört doch nur jeder, was er versteht.',
@@ -59,7 +64,7 @@ WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 	
 	
-    WA.ui.openPopup("myPopup1", 'Hello world!', [{
+    WA.ui.openPopup('myPopup1', "Hello world!", [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
