@@ -15,6 +15,7 @@
 // })
 
 helloWorldPopup = WA.room.onEnterZone('popup_sign_entry').subscribe(() => {
+	WA.chat.sendChatMessage("Hier herrscht Stille. Absolute Stille!", 'Baderegeln');
     WA.ui.openPopup('SignPopup', 'Hello world!', [{
         label: "Close",
         className: "primary",
