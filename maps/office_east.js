@@ -2,21 +2,21 @@
 
 
 
-function generate_popup(target_zone){
-	var targetObjectTutoExplanation ='tutoExplanation';
+function generate_popup(target_zone, target_rectangle, popup_text){
+	var targetObjectTutoExplanation =target_rectangle;
 	var popUpExplanation = undefined;
 
 	WA.onEnterZone(target_zone, () => {
 		//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 		
-		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent area', [
-			{
+		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, popup_text, [
+			/*{
 				label: "Close",
 				className: "popUpElement",
 				callback: (popup) => {
 					popup.close();
 				}
-			}
+			}*/
 		])
 	});
 
@@ -25,7 +25,8 @@ function generate_popup(target_zone){
 	})
 }
 
-generate_popup('silent_zone_pop_bottom')
+generate_popup('silent_zone_pop_bottom', 'tutoExplanation', 'This bridge leads to the silent area')
+generate_popup('zone_goethe', 'tutoChat', 'test')
 
 
 
