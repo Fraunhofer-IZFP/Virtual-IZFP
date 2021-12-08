@@ -432,7 +432,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest#start_office_east"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest#entryOfficeEast"
                 }],
          "type":"tilelayer",
          "visible":true,
