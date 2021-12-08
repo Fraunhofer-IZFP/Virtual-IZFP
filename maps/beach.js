@@ -35,7 +35,7 @@ var quotes_fishing= [
 
 WA.onEnterZone('popup_fisherman', () => {
 	var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-	popUpFisherman = WA.openPopup(targetObjectSign, quotes_fishing[quote_index], [
+	popUpFisherman = WA.openPopup(targetObjectFisherman, quotes_fishing[quote_index], [
 		{
 			label: "Close",
 			className: "popUpElement",
