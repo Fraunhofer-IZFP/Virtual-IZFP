@@ -1,6 +1,23 @@
+// important variables
+
+msg_silent_area = 'This bridge leads to the silent area'
+msg_forest_lodge = 'This is the forest lodge'
 
 
 
+var quotes_goethe= [
+	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
+	'Es hört doch nur jeder, was er versteht.',
+	'Mit dem Wissen wächst der Zweifel.',
+	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
+	'Man reist nicht um anzukommen, sondern um zu reisen.',
+	'Wer nicht neugierig ist, erfährt nichts.',
+	'Jede Lösung eines Problems ist ein neues Problem.',
+	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.',	
+	]
+
+
+// helper scripts
 
 function generate_popup(target_zone, target_rectangle, popup_text){
 	var targetObjectTutoExplanation =target_rectangle;
@@ -25,22 +42,18 @@ function generate_popup(target_zone, target_rectangle, popup_text){
 	})
 }
 
-generate_popup('silent_zone_pop_bottom', 'tutoExplanation', 'This bridge leads to the silent area')
+
+
+// pop-up-generation
+generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
 generate_popup('zone_goethe', 'tutoChat', 'test')
 
 
+generate_popup('pop_forest_house_left', 'pop_forest_lodge_left', msg_forest_lodge)
+generate_popup('pop_forest_house_right', 'pop_forest_lodge_right', msg_forest_lodge)
 
 
-var quotes_goethe= [
-	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
-	'Es hört doch nur jeder, was er versteht.',
-	'Mit dem Wissen wächst der Zweifel.',
-	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
-	'Man reist nicht um anzukommen, sondern um zu reisen.',
-	'Wer nicht neugierig ist, erfährt nichts.',
-	'Jede Lösung eines Problems ist ein neues Problem.',
-	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.',	
-	]
+
 
 function display_random_goethe_quote(){
 	var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
