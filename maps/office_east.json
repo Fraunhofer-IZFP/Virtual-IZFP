@@ -486,7 +486,18 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":140,
+                 "id":14,
+                 "name":"Tutobubble",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":185,
+                 "x":1200.75,
+                 "y":1432
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -592,7 +603,7 @@
          "y":0
         }],
  "nextlayerid":74,
- "nextobjectid":13,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "properties":[
         {
