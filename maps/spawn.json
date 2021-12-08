@@ -288,7 +288,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/pss.wsv.de\/itzbund\/webcam\/ilmenau.jpg"
+                 "value":"https:\/\/www.sei-gmbh.de\/webcams\/images\/cam_36_hq.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -306,7 +306,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/24hHD.webm"
+                 "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/"
                 }],
          "type":"tilelayer",
          "visible":true,
