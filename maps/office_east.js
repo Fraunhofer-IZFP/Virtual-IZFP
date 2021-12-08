@@ -11,14 +11,14 @@ msg_coworking = 'Co-working and chill-out'
 
 
 var quotes_goethe= [
-	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
-	'Es hört doch nur jeder, was er versteht.',
-	'Mit dem Wissen wächst der Zweifel.',
-	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
-	'Man reist nicht um anzukommen, sondern um zu reisen.',
-	'Wer nicht neugierig ist, erfährt nichts.',
-	'Jede Lösung eines Problems ist ein neues Problem.',
-	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.',	
+	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.\nJohann Wolfgang von Goethe',
+	'Es hört doch nur jeder, was er versteht.\nJohann Wolfgang von Goethe',
+	'Mit dem Wissen wächst der Zweifel.\nJohann Wolfgang von Goethe',
+	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.\nJohann Wolfgang von Goethe',
+	'Man reist nicht um anzukommen, sondern um zu reisen.\nJohann Wolfgang von Goethe',
+	'Wer nicht neugierig ist, erfährt nichts.\nJohann Wolfgang von Goethe',
+	'Jede Lösung eines Problems ist ein neues Problem.\nJohann Wolfgang von Goethe',
+	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.\nJohann Wolfgang von Goethe',	
 	]
 
 
@@ -95,40 +95,3 @@ display_random_goethe_quote('zone_goethe', 'rect_goethe_quotes')
 
 
 
-
-
-
-
-/*WA.room.onEnterZone('silent_zone_pop_bottom', () => {
-    WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
-	
-	
-    WA.ui.openPopup('myPopup1', "Hello world!", [{
-        label: "Close",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    }]);
-})*/
-
-WA.room.onEnterZone('pop_forest_house', () => {
-    WA.chat.sendChatMessage("This is the forest lodge!", 'Map guide');
-})
-
-WA.room.onEnterZone('pop_picnic_area', () => {
-    WA.chat.sendChatMessage("This is the forest picnic area!", 'Map guide');
-})
-
-WA.room.onEnterZone('pop_cowork', () => {
-    WA.chat.sendChatMessage("Here coworking / chill-out spaces are located!", 'Map guide');
-})
-
-WA.room.onEnterZone('pop_office_west', () => {
-    WA.chat.sendChatMessage("This passage leads to the western offices!", 'Map guide');
-})
-
-WA.room.onEnterZone('pop_spawn', () => {
-    WA.chat.sendChatMessage("This passage leads to the center area!", 'Map guide');
-})
