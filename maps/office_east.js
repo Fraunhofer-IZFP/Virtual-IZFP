@@ -8,6 +8,7 @@ msg_storage = 'Storage'
 msg_castle_garden = 'The orchard'
 msg_picknick = 'The forest workspace'
 msg_coworking = 'Co-working and chill-out areas'
+msg_orientation = 'Castle red table room: west\n Castle music room south\n Orchard: north-west\n forest lodge: north-east\n meeting area: north east\n forest workspace: east\nsilent area:center'
 
 
 var quotes_goethe= [
@@ -76,6 +77,7 @@ generate_popup('pop_forest_house_right', 'pop_forest_lodge_right', msg_forest_lo
 generate_popup('pop_music_room', 'rect_music_room', msg_music_room)
 
 generate_popup('pop_throne_room', 'rect_throne_room', msg_throne_room)
+generate_popup('pop_throne_room_2', 'rect_throne_room_2', msg_throne_room)
 
 generate_popup('pop_storage', 'rect_storage', msg_storage)
 
@@ -86,6 +88,16 @@ generate_popup('zone_picknick_top', 'rect_picknick_top', msg_picknick)
 generate_popup('zone_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
+
+generate_popup('pop_orientation_0', 'rect_orientation_0', msg_orientation)
+generate_popup('pop_orientation_1', 'rect_orientation_1', msg_orientation)
+generate_popup('pop_orientation_2', 'rect_orientation_2', msg_orientation)
+generate_popup('pop_orientation_3', 'rect_orientation_3', msg_orientation)
+generate_popup('pop_orientation_4', 'rect_orientation_4', msg_orientation)
+generate_popup('pop_orientation_5', 'rect_orientation_5', msg_orientation)
+
+
+
 
 generate_popup('zone_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
