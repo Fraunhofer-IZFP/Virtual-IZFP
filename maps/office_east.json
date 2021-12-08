@@ -183,41 +183,8 @@
          "name":"furniture_dep",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
-         "width":64,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":52,
-         "name":"popups",
-         "objects":[
-                {
-                 "height":72,
-                 "id":11,
-                 "name":"myPopup1",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":175.5,
-                 "x":1245.5,
-                 "y":1438.5
-                }, 
-                {
-                 "height":38,
-                 "id":12,
-                 "name":"pop_starter",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":59.3333333333333,
-                 "x":1231.33333333333,
-                 "y":1514
-                }],
-         "opacity":1,
-         "type":"objectgroup",
          "visible":true,
+         "width":64,
          "x":0,
          "y":0
         }, 
@@ -234,7 +201,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -288,7 +255,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -306,7 +273,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -324,7 +291,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_OfficeEast"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -342,7 +309,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -577,6 +544,39 @@
          "type":"tilelayer",
          "visible":true,
          "width":64,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":52,
+         "name":"popups",
+         "objects":[
+                {
+                 "height":72,
+                 "id":11,
+                 "name":"myPopup1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":175.5,
+                 "x":1227.5,
+                 "y":1425.16666666667
+                }, 
+                {
+                 "height":38,
+                 "id":12,
+                 "name":"pop_starter",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":59.3333333333333,
+                 "x":1231.33333333333,
+                 "y":1514
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }, 
