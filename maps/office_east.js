@@ -30,6 +30,79 @@ WA.room.onLeaveLayer("silent_zone_pop_bottom").subscribe(() => {
 
 
 
+var isFirstTimeTuto = false;
+var textFirstPopup = 'Hey ! This is how to start a discussion with someone ! You can be 4 max in a bubble.';
+var textSecondPopup = 'You can also use the chat to communicate ! ';
+var targetObjectTutoBubble ='myPopup1';
+var targetObjectTutoChat ='myPopup1';
+var targetObjectTutoExplanation ='myPopup1';
+var popUpExplanation = undefined;
+function launchTuto (){
+    WA.openPopup(targetObjectTutoBubble, textFirstPopup, [
+        {
+            label: "Next",
+            className: "popUpElement",
+            callback: (popup) => {
+                popup.close();
+
+                WA.openPopup(targetObjectTutoChat, textSecondPopup, [
+                    {
+                        label: "Open Chat",
+                        className: "popUpElement",
+                        callback: (popup1) => {
+                            WA.sendChatMessage("Hey you can talk here too!", 'WA Guide');
+                            popup1.close();
+                            WA.openPopup("TutoFinal","You are good to go! Go through the gate to meet the dev team and discover the features !",[
+                                {
+                                    label: "Got it!",
+                                    className : "success",callback:(popup2 => {
+                                        popup2.close();
+                                    })
+                                }
+                            ])
+                        }
+                    }
+
+                ])
+            }
+        }
+    ]);
+
+}
+
+
+WA.onEnterZone('silent_zone_pop_bottom', () => {
+	WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
+    WA.displayBubble();
+    if (!isFirstTimeTuto) {
+        isFirstTimeTuto = true;
+        launchTuto();
+    }
+    else {
+        popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'Do you want to review the explanation?', [
+            {
+                label: "No",
+                className: "error",
+                callback: (popup) => {
+                    popup.close();
+                }
+            },
+            {
+                label: "Yes",
+                className: "success",
+                callback: (popup) => {
+                    popup.close();
+                    launchTuto();
+                }
+            }
+        ])
+    }
+});
+
+WA.onLeaveZone('popupZone', () => {
+    if (popUpExplanation !== undefined) popUpExplanation.close();
+    WA.removeBubble();
+})
 
 
 
@@ -60,7 +133,7 @@ WA.room.onEnterZone('zone_goethe_2', () => {
 })
 
 
-WA.room.onEnterZone('silent_zone_pop_bottom', () => {
+/*WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 	
 	
@@ -72,7 +145,7 @@ WA.room.onEnterZone('silent_zone_pop_bottom', () => {
             popup.close();
         }
     }]);
-})
+})*/
 
 WA.room.onEnterZone('pop_forest_house', () => {
     WA.chat.sendChatMessage("This is the forest lodge!", 'Map guide');
