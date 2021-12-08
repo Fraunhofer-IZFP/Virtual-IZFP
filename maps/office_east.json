@@ -882,6 +882,28 @@
                  "width":211.333333333333,
                  "x":874,
                  "y":1009.33333333333
+                }, 
+                {
+                 "height":101.5,
+                 "id":40,
+                 "name":"rect_meeting",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":130,
+                 "x":1686,
+                 "y":226.5
+                }, 
+                {
+                 "height":115,
+                 "id":41,
+                 "name":"rect_goethe_quotes",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":128,
+                 "x":1875.5,
+                 "y":297.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -926,7 +948,7 @@
          "y":0
         }],
  "nextlayerid":84,
- "nextobjectid":40,
+ "nextobjectid":42,
  "orientation":"orthogonal",
  "properties":[
         {
