@@ -43,7 +43,7 @@ function showRandomFishermanQuote(target_zone, target_rectangle){
 	// showPopup('popup_fisherman', 'PopupFisherman', quotes_fishing[quote_index])
 // }
 
-showRandomFishermanQuote(popup_fisherman, PopupFisherman)
+//showRandomFishermanQuote(popup_fisherman, PopupFisherman)
 showPopup('popup_sign_entry', 'PopupSign', 'Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!')
 
 
