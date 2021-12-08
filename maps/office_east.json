@@ -612,50 +612,6 @@
          "width":64,
          "x":0,
          "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":52,
-         "name":"popups",
-         "objects":[
-                {
-                 "height":72,
-                 "id":11,
-                 "name":"myPopup1",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":175.5,
-                 "x":1227.5,
-                 "y":1425.16666666667
-                }, 
-                {
-                 "height":38,
-                 "id":12,
-                 "name":"pop_starter",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":59.3333333333333,
-                 "x":1231.33333333333,
-                 "y":1514
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":false,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":73,
-         "name":"popuptest",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":false,
-         "x":0,
-         "y":0
         }],
  "nextlayerid":74,
  "nextobjectid":24,

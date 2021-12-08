@@ -1,35 +1,3 @@
-//let helloWorldPopup;
-/*
-// Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterZone('silent_zone_pop_bottom', () => {
-    WA.ui.openPopup("myPopup1", 'Hello world!', [])});
-
-// Close the popup when we leave the zone.
-WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
-    helloWorldPopup.close();
-});*/
-
-
-// Open the popup when we enter a given zone
-/*helloWorldPopup = WA.room.onEnterLayer("silent_zone_pop_bottom").subscribe(() => {
-    WA.ui.openPopup("myPopup1", 'Hello world!', [{
-        label: "Close",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    }]);
-});
-
-// Close the popup when we leave the zone.
-WA.room.onLeaveLayer("silent_zone_pop_bottom").subscribe(() => {
-    helloWorldPopup.close();
-})*/
-
-
-
-
 var isFirstTimeTuto = false;
 var textFirstPopup = 'Hey ! This is how to start a discussion with someone ! You can be 4 max in a bubble.';
 var textSecondPopup = 'You can also use the chat to communicate ! ';
@@ -40,7 +8,7 @@ var popUpExplanation = undefined;
 function launchTuto (){
     WA.openPopup(targetObjectTutoBubble, textFirstPopup, [
         {
-            label: "Next",
+            label: "Close",
             className: "popUpElement",
             callback: (popup) => {
                 popup.close();
@@ -73,35 +41,20 @@ function launchTuto (){
 
 WA.onEnterZone('silent_zone_pop_bottom', () => {
 	WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
-    WA.displayBubble();
-    if (!isFirstTimeTuto) {
-        isFirstTimeTuto = true;
-        launchTuto();
-    }
-    else {
-        popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'Do you want to review the explanation?', [
-            {
-                label: "No",
-                className: "error",
-                callback: (popup) => {
-                    popup.close();
-                }
-            },
-            {
-                label: "Yes",
-                className: "success",
-                callback: (popup) => {
-                    popup.close();
-                    launchTuto();
-                }
-            }
-        ])
-    }
+	
+	popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent zone', [
+		{
+			label: "Close",
+			className: "popUpElement",
+			callback: (popup) => {
+				popup.close();
+			}
+		}
+	])
 });
 
-WA.onLeaveZone('popupZone', () => {
+WA.onLeaveZone('silent_zone_pop_bottom', () => {
     if (popUpExplanation !== undefined) popUpExplanation.close();
-    WA.removeBubble();
 })
 
 
