@@ -12,14 +12,14 @@ msg_orientation = 'Castle red table room: west\n Castle music room south\n Orcha
 
 
 var quotes_goethe= [
-	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.\nJohann Wolfgang von Goethe',
-	'Es hört doch nur jeder, was er versteht.\nJohann Wolfgang von Goethe',
+	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.\n\nJohann Wolfgang von Goethe',
+	'Es hört doch nur jeder, was er versteht.\n\nJohann Wolfgang von Goethe',
 	'Mit dem Wissen wächst der Zweifel.\nJohann Wolfgang von Goethe',
-	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.\nJohann Wolfgang von Goethe',
-	'Man reist nicht um anzukommen, sondern um zu reisen.\nJohann Wolfgang von Goethe',
-	'Wer nicht neugierig ist, erfährt nichts.\nJohann Wolfgang von Goethe',
-	'Jede Lösung eines Problems ist ein neues Problem.\nJohann Wolfgang von Goethe',
-	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.\nJohann Wolfgang von Goethe',	
+	'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.\n\nJohann Wolfgang von Goethe',
+	'Man reist nicht um anzukommen, sondern um zu reisen.\n\nJohann Wolfgang von Goethe',
+	'Wer nicht neugierig ist, erfährt nichts.\n\nJohann Wolfgang von Goethe',
+	'Jede Lösung eines Problems ist ein neues Problem.\n\nJohann Wolfgang von Goethe',
+	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.\n\nJohann Wolfgang von Goethe',	
 	]
 
 
