@@ -1,24 +1,31 @@
-var targetObjectTutoExplanation ='tutoExplanation';
-var popUpExplanation = undefined;
 
 
-WA.onEnterZone('silent_zone_pop_bottom', () => {
-	//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
-	
-	popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent area', [
-		{
-			label: "Close",
-			className: "popUpElement",
-			callback: (popup) => {
-				popup.close();
+
+
+function generate_popup(target_zone){
+	var targetObjectTutoExplanation ='tutoExplanation';
+	var popUpExplanation = undefined;
+
+	WA.onEnterZone(target_zone, () => {
+		//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
+		
+		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, 'This bridge leads to the silent area', [
+			{
+				label: "Close",
+				className: "popUpElement",
+				callback: (popup) => {
+					popup.close();
+				}
 			}
-		}
-	])
-});
+		])
+	});
 
-WA.onLeaveZone('silent_zone_pop_bottom', () => {
-    if (popUpExplanation !== undefined) popUpExplanation.close();
-})
+	WA.onLeaveZone(target_zone, () => {
+		if (popUpExplanation !== undefined) popUpExplanation.close();
+	})
+}
+
+generate_popup('silent_zone_pop_bottom')
 
 
 
