@@ -7,7 +7,7 @@ msg_throne_room = 'The red table room'
 msg_storage = 'Storage'
 msg_castle_garden = 'The orchard'
 msg_picknick = 'The forest workspace'
-
+msg_coworking = 'Co-working and chill-out'
 
 
 var quotes_goethe= [
@@ -49,15 +49,13 @@ function generate_popup(target_zone, target_rectangle, popup_text){
 
 
 function display_random_goethe_quote(target_zone, target_rectangle){
-	var targetObjectTutoExplanation =target_rectangle;
 	var popUpExplanation = undefined;
 
 	WA.onEnterZone(target_zone, () => {
-		//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 		var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
 		var popup_text = quotes_goethe[quote_index]
 		
-		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, popup_text, [
+		popUpExplanation = WA.openPopup(target_rectangle, popup_text, [
 		])
 	});
 
@@ -87,6 +85,8 @@ generate_popup('pop_castle_garden_left', 'rect_castle_garden_left', msg_castle_g
 
 generate_popup('pop_picknick_top', 'rect_picknick_top', msg_picknick)
 generate_popup('pop_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
+
+generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
 generate_popup('pop_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
