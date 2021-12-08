@@ -1,11 +1,12 @@
 // important variables
 
-msg_silent_area = 'Silent area'
+msg_silent_area = 'Bridge to silent area'
 msg_forest_lodge = 'Forest lodge'
 msg_music_room = 'Music room'
 msg_throne_room = 'The red table room'
 msg_storage = 'Storage'
-msg_castle_garden = 'Orchard'
+msg_castle_garden = 'The orchard'
+msg_picknick = 'The forest workspace'
 
 
 
@@ -24,13 +25,12 @@ var quotes_goethe= [
 // helper scripts
 
 function generate_popup(target_zone, target_rectangle, popup_text){
-	var targetObjectTutoExplanation =target_rectangle;
 	var popUpExplanation = undefined;
 
 	WA.onEnterZone(target_zone, () => {
 		//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
 		
-		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, popup_text, [
+		popUpExplanation = WA.openPopup(target_rectangle, popup_text, [
 			/*{
 				label: "Close",
 				className: "popUpElement",
@@ -90,7 +90,7 @@ generate_popup('pop_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
 
 generate_popup('pop_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
-display_random_goethe_quote('pop_goethe', 'rect_goethe_quotes')
+display_random_goethe_quote('zone_goethe', 'rect_goethe_quotes')
 
 
 
