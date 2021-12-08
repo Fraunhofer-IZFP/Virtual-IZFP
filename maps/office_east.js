@@ -48,14 +48,30 @@ function generate_popup(target_zone, target_rectangle, popup_text){
 
 
 
+function display_random_goethe_quote(target_zone, target_rectangle){
+	var targetObjectTutoExplanation =target_rectangle;
+	var popUpExplanation = undefined;
+
+	WA.onEnterZone(target_zone, () => {
+		//WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
+		var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
+		var popup_text = quotes_goethe[quote_index]
+		
+		popUpExplanation = WA.openPopup(targetObjectTutoExplanation, popup_text, [
+		])
+	});
+
+	WA.onLeaveZone(target_zone, () => {
+		if (popUpExplanation !== undefined) popUpExplanation.close();
+	})
+}
+
+
 // pop-up-generation
 generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
 generate_popup('silent_zone_pop_left', 'rect_silent_left', msg_silent_area)
 generate_popup('silent_zone_pop_right', 'rect_silent_right', msg_silent_area)
 generate_popup('zone_goethe', 'tutoChat', 'test')
-
-rect_silent_right
-
 
 generate_popup('pop_forest_house_left', 'pop_forest_lodge_left', msg_forest_lodge)
 generate_popup('pop_forest_house_right', 'pop_forest_lodge_right', msg_forest_lodge)
@@ -74,20 +90,13 @@ generate_popup('pop_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
 
 generate_popup('pop_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
 
-
-function display_random_goethe_quote(){
-	var quote_index = Math.floor(Math.random() * (quotes_goethe.length));
-	WA.chat.sendChatMessage(quotes_goethe[quote_index], "Johann Wolfgang von Goethe");
-}
+display_random_goethe_quote('pop_goethe', 'rect_goethe_quotes')
 
 
-WA.room.onEnterZone('zone_goethe', () => {
-    display_random_goethe_quote();
-})
 
-WA.room.onEnterZone('zone_goethe_2', () => {
-    WA.chat.sendChatMessage("The tiny sign says: Goethe has (never) been here.", 'Map guide');
-})
+
+
+
 
 
 /*WA.room.onEnterZone('silent_zone_pop_bottom', () => {
