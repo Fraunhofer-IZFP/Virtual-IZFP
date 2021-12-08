@@ -1,7 +1,8 @@
-var targetObjectSign ='PopupSign';
-var popUpSign = undefined;
-var targetObjectFisherman ='PopupFisherman';
-var popUpFisherman = undefined;
+var targetZoneSign = 'popup_sign_entry'
+var targetRectangleSign = 'PopupSign'
+var contentSign = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!']
+var targetZoneFisherman = 'popup_fisherman'
+var targetRectangleFisherman = 'PopupFisherman'
 
 var quotes_fishing= [
 	'B ist ein sehr wichtiger Buchstabe. Ohne ihn sähe der Barsch ganz unfein aus.',
@@ -20,27 +21,6 @@ var quotes_fishing= [
 function showPopup(target_zone, target_rectangle, popup_content){
 	var popUpInstance = undefined;
 	WA.onEnterZone(target_zone, () => {
-		popUpInstance = WA.openPopup(target_rectangle, popup_content, [])
-	});
-	WA.onLeaveZone(target_zone, () => {
-		if (popUpInstance !== undefined) popUpInstance.close();
-	})
-}
-
-function showRandomFishermanQuote(target_zone, target_rectangle){
-	var popUpInstance = undefined;
-	WA.onEnterZone(target_zone, () => {
-		var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-		popUpInstance = WA.openPopup(target_rectangle, quotes_fishing[quote_index], [])
-	});
-	WA.onLeaveZone(target_zone, () => {
-		if (popUpInstance !== undefined) popUpInstance.close();
-	})
-}
-
-function showPopup2(target_zone, target_rectangle, popup_content){
-	var popUpInstance = undefined;
-	WA.onEnterZone(target_zone, () => {
 		var index = Math.floor(Math.random() * (popup_content.length));
 		popUpInstance = WA.openPopup(target_rectangle, popup_content[index], [])
 	});
@@ -49,46 +29,9 @@ function showPopup2(target_zone, target_rectangle, popup_content){
 	})
 }
 
+showPopup(targetZoneSign, targetRectangleSign, contentSign)
+showPopup(targetZoneFisherman, targetRectangleFisherman, quotes_fishing)
 
-// function showRandomFishermanQuote() {
-	// var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-	// showPopup('popup_fisherman', 'PopupFisherman', quotes_fishing[quote_index])
-// }
-
-//showRandomFishermanQuote('popup_fisherman', 'PopupFisherman')
-//showPopup('popup_sign_entry', 'PopupSign', 'Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!')
-showPopup2('popup_sign_entry', 'PopupSign', ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!'])
-showPopup2('popup_fisherman', 'PopupFisherman', quotes_fishing)
-
-
-// function showPopup(target, content) {
-  // popUpSign = WA.openPopup(target, content, [
-		// {
-			// label: "Close",
-			// className: "popUpElement",
-			// callback: (popup) => {
-				// popup.close();
-			// }
-		// }
-	// ]);
-	// return popUpSign;
-// }
-
-
-// WA.onEnterZone('popup_sign_entry', () => {
-	// popUpSign = showPopup(targetObjectSign, 'Baderegeln:\n Hier herrscht Stille. Absolute Stille!');
-// });
-// WA.onLeaveZone('popup_sign_entry', () => {
-    // if (popUpSign !== undefined) popUpSign.close();
-// })
-
-// WA.onEnterZone('popup_fisherman', () => {
-	// var quote_index = Math.floor(Math.random() * (quotes_fishing.length));
-	// popUpFisherman = showPopup(targetObjectFisherman, quotes_fishing[quote_index]);
-// });
-// WA.onLeaveZone('popup_fisherman', () => {
-    // if (popUpFisherman !== undefined) popUpFisherman.close();
-// })
 
 
 
