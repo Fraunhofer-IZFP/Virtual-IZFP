@@ -13,7 +13,7 @@ WA.room.onLeaveZone('silent_zone_pop_bottom', () => {
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.room.onEnterLayer("silent_zone_pop_bottom").subscribe(() => {
+/*helloWorldPopup = WA.room.onEnterLayer("silent_zone_pop_bottom").subscribe(() => {
     WA.ui.openPopup("myPopup1", 'Hello world!', [{
         label: "Close",
         className: "primary",
@@ -27,7 +27,7 @@ helloWorldPopup = WA.room.onEnterLayer("silent_zone_pop_bottom").subscribe(() =>
 // Close the popup when we leave the zone.
 WA.room.onLeaveLayer("silent_zone_pop_bottom").subscribe(() => {
     helloWorldPopup.close();
-})
+})*/
 
 
 
@@ -59,6 +59,16 @@ WA.room.onEnterZone('zone_goethe_2', () => {
 
 WA.room.onEnterZone('silent_zone_pop_bottom', () => {
     WA.chat.sendChatMessage("This bridge leads to the silent area!", 'Map guide');
+	
+	
+    WA.ui.openPopup("myPopup1", 'Hello world!', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
 })
 
 WA.room.onEnterZone('pop_forest_house', () => {
