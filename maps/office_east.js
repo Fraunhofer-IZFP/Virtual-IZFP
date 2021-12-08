@@ -34,8 +34,8 @@ var isFirstTimeTuto = false;
 var textFirstPopup = 'Hey ! This is how to start a discussion with someone ! You can be 4 max in a bubble.';
 var textSecondPopup = 'You can also use the chat to communicate ! ';
 var targetObjectTutoBubble ='Tutobubble';
-var targetObjectTutoChat ='myPopup1';
-var targetObjectTutoExplanation ='myPopup1';
+var targetObjectTutoChat ='tutoChat';
+var targetObjectTutoExplanation ='tutoExplanation';
 var popUpExplanation = undefined;
 function launchTuto (){
     WA.openPopup(targetObjectTutoBubble, textFirstPopup, [

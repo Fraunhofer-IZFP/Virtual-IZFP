@@ -489,14 +489,69 @@
          "objects":[
                 {
                  "height":140,
-                 "id":14,
+                 "id":18,
                  "name":"Tutobubble",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":185,
-                 "x":1200.75,
-                 "y":1432
+                 "x":1185.5,
+                 "y":1367.25
+                }, 
+                {
+                 "height":86.9997,
+                 "id":19,
+                 "name":"TutoFinal",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":187,
+                 "x":1182.5,
+                 "y":1420.25
+                }, 
+                {
+                 "height":84.6667,
+                 "id":20,
+                 "name":"tutoExplanation",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":184.5,
+                 "x":1186.5,
+                 "y":1378.25
+                }, 
+                {
+                 "height":99.6667,
+                 "id":21,
+                 "name":"tutoChat",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":185,
+                 "x":1184.5,
+                 "y":1407.25
+                }, 
+                {
+                 "height":0,
+                 "id":22,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1286.5,
+                 "y":1477.25
+                }, 
+                {
+                 "height":0,
+                 "id":23,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1278.5,
+                 "y":1407.25
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -587,7 +642,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -598,12 +653,12 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
  "nextlayerid":74,
- "nextobjectid":15,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
