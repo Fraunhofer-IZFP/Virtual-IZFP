@@ -306,7 +306,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/"
+                 "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/saarbruecken-theater.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
