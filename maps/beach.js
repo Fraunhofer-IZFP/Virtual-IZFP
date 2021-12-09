@@ -32,6 +32,7 @@ function showPopup(target_zone, target_rectangle, popup_content){
 	})
 }
 
+
 function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
 	var popUpInstance = undefined;
 	WA.onEnterZone(target_zone, () => {
@@ -47,6 +48,7 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 					// Close the popup when the "Close" button is pressed.
 					popup.close();
 					isEnglish = false;
+					showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german)
 				}
 			}]);
 		}
@@ -60,6 +62,7 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 					// Close the popup when the "Close" button is pressed.
 					popup.close();
 					isEnglish = true;
+					showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german)
 				}
 			}]);
 		}
