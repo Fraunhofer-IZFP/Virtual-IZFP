@@ -304,14 +304,14 @@
                  "y":246
                 }, 
                 {
-                 "height":105.333333333333,
+                 "height":192,
                  "id":13,
                  "name":"PopupSignSpawn",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":122.666666666667,
-                 "x":889.333333333333,
+                 "width":276,
+                 "x":736,
                  "y":86.6666666666667
                 }],
          "opacity":1,
