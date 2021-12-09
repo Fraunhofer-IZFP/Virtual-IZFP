@@ -1,5 +1,6 @@
 // important variables
 
+var msg_orient = 'Test'
 var msg_silent_area = 'Bridge to silent area'
 var msg_forest_lodge = 'Forest lodge'
 var msg_music_room = 'Music room'
@@ -10,7 +11,6 @@ var msg_picknick = 'The forest workspace'
 var msg_coworking = 'Co-working and chill-out areas'
 var msg_cliff = 'The cliffs'
 
-var msg_orient = 'Test'
 
 
 
@@ -71,13 +71,12 @@ function display_random_goethe_quote(target_zone, target_rectangle){
 
 
 // pop-up-generation
-
-generate_popup('zone_orientation_0', 'rect_orientation_0', msg_orient)
-generate_popup('zone_orientation_1', 'rect_orientation_1', msg_orient)
-generate_popup('zone_orientation_2', 'rect_orientation_2', msg_orient)
-generate_popup('zone_orientation_3', 'rect_orientation_3', msg_orient)
-generate_popup('zone_orientation_4', 'rect_orientation_4', msg_orient)
-generate_popup('zone_orientation_5', 'rect_orientation_5', msg_orient)
+generate_popup('pop_orientation_0', 'rect_orientation_0', msg_orient)
+generate_popup('pop_orientation_1', 'rect_orientation_1', msg_orient)
+generate_popup('pop_orientation_2', 'rect_orientation_2', msg_orient)
+generate_popup('pop_orientation_3', 'rect_orientation_3', msg_orient)
+generate_popup('pop_orientation_4', 'rect_orientation_4', msg_orient)
+generate_popup('pop_orientation_5', 'rect_orientation_5', msg_orient)
 
 
 generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
