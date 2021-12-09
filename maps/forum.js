@@ -25,12 +25,18 @@ function showPopups(target_zone, target_rectangle1, popup_content1, target_recta
 	WA.onEnterZone(target_zone, () => {
 		var popUpInstance1 = undefined;
 		var popUpInstance2 = undefined;
-		popUpInstance1 = WA.openPopup(target_rectangle1, popup_content1, [])
-		popUpInstance2 = WA.openPopup(target_rectangle2, popup_content2, [])
+		popUpInstance1 = WA.openPopup(target_rectangle1, popup_content1, []);
+		popUpInstance2 = WA.openPopup(target_rectangle2, popup_content2, []);
 	});
 	WA.onLeaveZone(target_zone, () => {
-		if (popUpInstance1 !== undefined) popUpInstance1.close();
-		if (popUpInstance2 !== undefined) popUpInstance2.close();
+		if (popUpInstance1 !== undefined) 
+		{
+			popUpInstance1.close();
+		}
+		if (popUpInstance2 !== undefined)
+		{
+			popUpInstance2.close();
+		}
 	})
 }
 
