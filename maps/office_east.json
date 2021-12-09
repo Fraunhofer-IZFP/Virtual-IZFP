@@ -600,7 +600,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest#entryOfficeEast"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officewest#entryOfficeEastTop"
                 }],
          "type":"tilelayer",
          "visible":true,
