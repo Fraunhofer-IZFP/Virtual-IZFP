@@ -7,7 +7,8 @@ var targetRectangleSpawnSign = 'PopupSignSpawn'
 var contentSignEnglish = ['Only pool rule:\n Be silent! Absolutely silent!']
 var contentSignGerman = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!']
 
-var contentSignSpawn = ['Spawn']
+var contentSignSpawnEnglish = ['To the spawn area']
+var contentSignSpawnGerman = ['Zum Startbereich']
 
 var targetZoneFisherman = 'popup_fisherman'
 var targetRectangleFisherman = 'PopupFisherman'
@@ -79,7 +80,7 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 
 //showPopup(targetZoneSign, targetRectangleSign, contentSign)
 showPopupEnglishGerman(targetZoneRulesSign, targetRectangleRulesSign, contentSignEnglish, contentSignGerman)
-showPopup(targetZoneSpawnSign, targetRectangleSpawnSign, contentSignSpawn)
+showPopupEnglishGerman(targetZoneSpawnSign, targetRectangleSpawnSign, contentSignSpawnEnglish, contentSignSpawnGerman)
 showPopup(targetZoneFisherman, targetRectangleFisherman, quotes_fishing)
 
 
