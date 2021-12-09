@@ -12,6 +12,8 @@ var msg_cliff = 'The cliffs'
 //msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
 var msg_orientation = 'North-west: orchard\nNorth-east: lodge, meetings\nEast: forest\nSouth-east: cliffs\nSouth:music room\nWest: red table\nCenter: silent area'
 
+var msg_orient = 'Test'
+
 
 
 
@@ -96,12 +98,12 @@ generate_popup('pop_cliff_1', 'rect_cliff_1', msg_cliff)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
-generate_popup('pop_orientation_0', 'rect_orientation_0', msg_orientation)
-generate_popup('pop_orientation_1', 'rect_orientation_1', msg_orientation)
-generate_popup('pop_orientation_2', 'rect_orientation_2', msg_orientation)
-generate_popup('pop_orientation_3', 'rect_orientation_3', msg_orientation)
-generate_popup('pop_orientation_4', 'rect_orientation_4', msg_orientation)
-generate_popup('pop_orientation_5', 'rect_orientation_5', msg_orientation)
+generate_popup('pop_orientation_0', 'rect_orientation_0', msg_orient)
+generate_popup('pop_orientation_1', 'rect_orientation_1', msg_orient)
+generate_popup('pop_orientation_2', 'rect_orientation_2', msg_orient)
+generate_popup('pop_orientation_3', 'rect_orientation_3', msg_orient)
+generate_popup('pop_orientation_4', 'rect_orientation_4', msg_orient)
+generate_popup('pop_orientation_5', 'rect_orientation_5', msg_orient)
 
 
 
