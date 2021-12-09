@@ -1,7 +1,14 @@
-var targetZoneSign = 'popup_sign_entry'
-var targetRectangleSign = 'PopupSign'
+var targetZoneRulesSign = 'popup_sign_entry'
+var targetRectangleRulesSign = 'PopupSign'
+
+var targetZoneSpawnSign = 'popup_sign_spawn'
+var targetRectangleSpawnSign = 'PopupSignSpawn'
+
 var contentSignEnglish = ['Only pool rule:\n Be silent! Absolutely silent!']
 var contentSignGerman = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!']
+
+var contentSignSpawn = ['Spawn']
+
 var targetZoneFisherman = 'popup_fisherman'
 var targetRectangleFisherman = 'PopupFisherman'
 
@@ -71,7 +78,8 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 }
 
 //showPopup(targetZoneSign, targetRectangleSign, contentSign)
-showPopupEnglishGerman(targetZoneSign, targetRectangleSign, contentSignEnglish, contentSignGerman)
+showPopupEnglishGerman(targetZoneRulesSign, targetRectangleRulesSign, contentSignEnglish, contentSignGerman)
+showPopup(targetZoneSpawnSign, targetRectangleSpawnSign, contentSignSpawn)
 showPopup(targetZoneFisherman, targetRectangleFisherman, quotes_fishing)
 
 
