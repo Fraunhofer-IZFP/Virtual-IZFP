@@ -14,12 +14,12 @@ var contentSignOfficeWestEnglish = ['To the western offices']
 var contentSignOfficeWestGerman = ['Zu den westlichen Büros']
 var contentSignOfficeEastEnglish = ['To the eastern offices']
 var contentSignOfficeEastGerman = ['Zu den östlichen Büros']
-var contentSignFunAreaEnglish = ['Danger! You will now enter the IZFP "fun" area. Still under construction!']
-var contentSignFunAreaGerman = ['Gefahr! Sie betreten nun die IZFP-"Spaß"-Ecke. Betreten der Baustelle weder sinnvoll noch empfohlen!']
-var contentSignForumEnglish = ['To the Forum. You will find the meeting rooms there']
-var contentSignForumGerman = ['Zum Forum. Dort gibt es Besprechungsräume.']
-var contentSignBeachEnglish = ['To the silent beach. Trust me, it is relaxing.']
-var contentSignBeachGerman = ['Zum ruhigen Strand. Man sagt, es sei erholsam.']
+var contentSignFunAreaEnglish = ['Danger!\nYou will now enter the IZFP "fun" area.\nStill under construction!']
+var contentSignFunAreaGerman = ['Gefahr!\nSie betreten nun die IZFP-"Spaß"-Ecke.\nBetreten der Baustelle weder sinnvoll noch empfohlen!']
+var contentSignForumEnglish = ['To the Forum.\nYou will find the meeting rooms there']
+var contentSignForumGerman = ['Zum Forum.\nDort gibt es Besprechungsräume.']
+var contentSignBeachEnglish = ['To the silent beach.\nTrust me, it is relaxing.']
+var contentSignBeachGerman = ['Zum ruhigen Strand.\nMan sagt, es sei erholsam.']
 
 var isEnglish = false
 
