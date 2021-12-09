@@ -38,6 +38,56 @@ function showPopup(target_zone, target_rectangle, popup_content){
 	})
 }
 
+function showGerman(target_rectangle, popup_content_english, popup_content_german) 
+{
+	popUpInstance = WA.openPopup(target_rectangle, popup_content_german, 
+			[{
+				label: "English",
+				className: "primary",
+				callback: (popup) => {
+					// Close the popup when the "Close" button is pressed.
+					popup.close();
+					isEnglish = true;
+					showEnglish(target_rectangle, popup_content_english, popup_content_german);
+				}
+			}]);
+			return popUpInstance;
+}	
+
+function showEnglish(target_rectangle, popup_content_english, popup_content_german) 
+{
+	popUpInstance = WA.openPopup(target_rectangle, popup_content_english, 
+			[{
+				label: "German",
+				className: "primary",
+				callback: (popup) => {
+					// Close the popup when the "Close" button is pressed.
+					popup.close();
+					isEnglish = false;
+					showGerman(target_rectangle, popup_content_english, popup_content_german);
+				}
+			}]);
+			return popUpInstance;
+}	
+
+function showPopupEnglishGerman2(target_zone, target_rectangle, popup_content_english, popup_content_german){
+	var popUpInstance = undefined;
+	WA.onEnterZone(target_zone, () => {
+		// get language
+		if(isEnglish)
+		{
+			popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
+		}
+		else 
+		{
+			popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german); 
+		}
+	});
+	WA.onLeaveZone(target_zone, () => {
+		if (popUpInstance !== undefined) popUpInstance.close();
+	})
+
+
 function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
 	var popUpInstance = undefined;
 	WA.onEnterZone(target_zone, () => {
@@ -75,9 +125,9 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 	})
 }
 
-showPopupEnglishGerman(targetTriggerZoneSignOfficeWest, targetRectangleSignOfficeWest, contentSignOfficeWestEnglish, contentSignOfficeWestGerman)
-showPopupEnglishGerman(targetTriggerZoneSignOfficeEast, targetRectangleSignOfficeEast, contentSignOfficeEastEnglish, contentSignOfficeEastGerman)
-showPopupEnglishGerman(targetTriggerZoneSignFunArea, targetRectangleSignFunArea, contentSignFunAreaEnglish, contentSignFunAreaGerman)
-showPopupEnglishGerman(targetTriggerZoneSignForum, targetRectangleSignForum, contentSignForumEnglish, contentSignForumGerman)
-showPopupEnglishGerman(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
-showPopupEnglishGerman(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
+showPopupEnglishGerman2(targetTriggerZoneSignOfficeWest, targetRectangleSignOfficeWest, contentSignOfficeWestEnglish, contentSignOfficeWestGerman)
+showPopupEnglishGerman2(targetTriggerZoneSignOfficeEast, targetRectangleSignOfficeEast, contentSignOfficeEastEnglish, contentSignOfficeEastGerman)
+showPopupEnglishGerman2(targetTriggerZoneSignFunArea, targetRectangleSignFunArea, contentSignFunAreaEnglish, contentSignFunAreaGerman)
+showPopupEnglishGerman2(targetTriggerZoneSignForum, targetRectangleSignForum, contentSignForumEnglish, contentSignForumGerman)
+showPopupEnglishGerman2(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
+showPopupEnglishGerman2(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
