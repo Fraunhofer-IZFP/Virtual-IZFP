@@ -1,16 +1,16 @@
 // important variables
 
-msg_silent_area = 'Bridge to silent area'
-msg_forest_lodge = 'Forest lodge'
-msg_music_room = 'Music room'
-msg_throne_room = 'The red table room'
-msg_storage = 'Storage'
-msg_castle_garden = 'The orchard'
-msg_picknick = 'The forest workspace'
-msg_coworking = 'Co-working and chill-out areas'
-msg_cliff = 'The cliffs'
+var msg_silent_area = 'Bridge to silent area'
+var msg_forest_lodge = 'Forest lodge'
+var msg_music_room = 'Music room'
+var msg_throne_room = 'The red table room'
+var msg_storage = 'Storage'
+var msg_castle_garden = 'The orchard'
+var msg_picknick = 'The forest workspace'
+var msg_coworking = 'Co-working and chill-out areas'
+var msg_cliff = 'The cliffs'
 //msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
-msg_orientation = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest workspace\nSouth-east: cliffs\nSouth:Music room castle\nWest: castle red table\nCenter: silent area'
+var msg_orientation = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest workspace\nSouth-east: cliffs\nSouth:Music room castle\nWest: castle red table\nCenter: silent area'
 
 
 
