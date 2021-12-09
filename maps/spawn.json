@@ -289,6 +289,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.sei-gmbh.de\/webcams\/images\/cam_36_hq.jpg"
+                }, 
+                {
+                 "name":"openWebsiteWidth",
+                 "type":"int",
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -307,6 +312,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/saarbruecken-theater.jpg"
+                }, 
+                {
+                 "name":"openWebsiteWidth",
+                 "type":"int",
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -324,12 +334,12 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/mensaar.de\/#\/menu\/sb"
+                 "value":"https:\/\/mensaar.de"
                 }, 
                 {
                  "name":"openWebsiteWidth",
                  "type":"int",
-                 "value":200
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -347,12 +357,12 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"http:\/\/www2.izfp.fraunhofer.de\/"
                 }, 
                 {
                  "name":"openWebsiteWidth",
                  "type":"int",
-                 "value":200
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
