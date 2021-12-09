@@ -98,12 +98,12 @@ generate_popup('pop_cliff_1', 'rect_cliff_1', msg_cliff)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
-generate_popup('pop_orientation_0', 'rect_orientation_0', msg_orient)
-generate_popup('pop_orientation_1', 'rect_orientation_1', msg_orient)
-generate_popup('pop_orientation_2', 'rect_orientation_2', msg_orient)
-generate_popup('pop_orientation_3', 'rect_orientation_3', msg_orient)
-generate_popup('pop_orientation_4', 'rect_orientation_4', msg_orient)
-generate_popup('pop_orientation_5', 'rect_orientation_5', msg_orient)
+generate_popup('zone_orientation_0', 'rect_orientation_0', msg_orient)
+generate_popup('zone_orientation_1', 'rect_orientation_1', msg_orient)
+generate_popup('zone_orientation_2', 'rect_orientation_2', msg_orient)
+generate_popup('zone_orientation_3', 'rect_orientation_3', msg_orient)
+generate_popup('zone_orientation_4', 'rect_orientation_4', msg_orient)
+generate_popup('zone_orientation_5', 'rect_orientation_5', msg_orient)
 
 
 
