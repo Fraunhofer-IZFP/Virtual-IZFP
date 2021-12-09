@@ -5,6 +5,8 @@ var contentSignGerman = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute St
 var targetZoneFisherman = 'popup_fisherman'
 var targetRectangleFisherman = 'PopupFisherman'
 
+var isEnglish = false
+
 var quotes_fishing= [
 	'B ist ein sehr wichtiger Buchstabe. Ohne ihn sähe der Barsch ganz unfein aus.',
 	'Angeln: stundenlang geduldig an einem Fleck lauern, bis man nichts gefangen hat.',
@@ -36,24 +38,13 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 		var index = Math.floor(Math.random() * (popup_content_german.length));
 		popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index], 
 		[{
-			// callback
-			label: "English",
+			label: "Close",
 			className: "primary",
 			callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-			popUpInstance = WA.openPopup(target_rectangle, popup_content_english[index],
-			[{
-				// callback
-				label: "Deutsch",
-				className: "primary",
-				callback: (popup) => {
 				// Close the popup when the "Close" button is pressed.
 				popup.close();
-				popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index]
-			}]
-		}]
-		)
+			}
+		}]);
 	});
 	WA.onLeaveZone(target_zone, () => {
 		if (popUpInstance !== undefined) popUpInstance.close();
