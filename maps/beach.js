@@ -1,6 +1,7 @@
 var targetZoneSign = 'popup_sign_entry'
 var targetRectangleSign = 'PopupSign'
-var contentSign = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!']
+var contentSignEnglish = ['Only pool rule:\n Be silent! Absolutely silent!']
+var contentSignGerman = ['Einzige Baderegel:\n Hier herrscht Stille. Absolute Stille!']
 var targetZoneFisherman = 'popup_fisherman'
 var targetRectangleFisherman = 'PopupFisherman'
 
@@ -29,7 +30,38 @@ function showPopup(target_zone, target_rectangle, popup_content){
 	})
 }
 
-showPopup(targetZoneSign, targetRectangleSign, contentSign)
+function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
+	var popUpInstance = undefined;
+	WA.onEnterZone(target_zone, () => {
+		var index = Math.floor(Math.random() * (popup_content_german.length));
+		popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index], 
+		[{
+			// callback
+			label: "English",
+			className: "primary",
+			callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+			popUpInstance = WA.openPopup(target_rectangle, popup_content_english[index],
+			[{
+				// callback
+				label: "Deutsch",
+				className: "primary",
+				callback: (popup) => {
+				// Close the popup when the "Close" button is pressed.
+				popup.close();
+				popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index],
+			}]
+		}]
+		)
+	});
+	WA.onLeaveZone(target_zone, () => {
+		if (popUpInstance !== undefined) popUpInstance.close();
+	})
+}
+
+//showPopup(targetZoneSign, targetRectangleSign, contentSign)
+showPopupEnglishGerman(targetZoneSign, targetRectangleSign, contentSignEnglish, contentSignGerman)
 showPopup(targetZoneFisherman, targetRectangleFisherman, quotes_fishing)
 
 
