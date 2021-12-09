@@ -40,6 +40,7 @@ function showPopup(target_zone, target_rectangle, popup_content){
 
 function showGerman(target_rectangle, popup_content_english, popup_content_german) 
 {
+	var popUpInstance = undefined;
 	popUpInstance = WA.openPopup(target_rectangle, popup_content_german, 
 			[{
 				label: "English",
@@ -48,7 +49,7 @@ function showGerman(target_rectangle, popup_content_english, popup_content_germa
 					// Close the popup when the "Close" button is pressed.
 					popup.close();
 					isEnglish = true;
-					showEnglish(target_rectangle, popup_content_english, popup_content_german);
+					popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
 				}
 			}]);
 			return popUpInstance;
@@ -56,6 +57,7 @@ function showGerman(target_rectangle, popup_content_english, popup_content_germa
 
 function showEnglish(target_rectangle, popup_content_english, popup_content_german) 
 {
+	var popUpInstance = undefined;
 	popUpInstance = WA.openPopup(target_rectangle, popup_content_english, 
 			[{
 				label: "German",
@@ -64,7 +66,7 @@ function showEnglish(target_rectangle, popup_content_english, popup_content_germ
 					// Close the popup when the "Close" button is pressed.
 					popup.close();
 					isEnglish = false;
-					showGerman(target_rectangle, popup_content_english, popup_content_german);
+					popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german);
 				}
 			}]);
 			return popUpInstance;
