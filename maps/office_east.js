@@ -1,6 +1,6 @@
 // important variables
 
-var msg_orient = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest camp\nSouth-east: cliffs\nSouth:castle music room\nWest: castle red table\nCenter: silent area'
+var msg_orient = 'Orientation:\n\nNorth-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest camp\nSouth-east: cliffs\nSouth-west:castle music room\nWest: castle red table\nCenter: silent area'
 var msg_silent_area = 'Bridge to silent area'
 var msg_forest_lodge = 'Forest lodge'
 var msg_music_room = 'Music room'
