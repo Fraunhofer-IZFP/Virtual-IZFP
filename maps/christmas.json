@@ -45,7 +45,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/spawn#entry_Christmas"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -57,7 +57,7 @@
          "name":"collide",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -80,7 +80,7 @@
                  "value":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen;"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -98,7 +98,7 @@
                  "value":"jitsi1"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -116,7 +116,7 @@
                  "value":"jitsi2"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -134,7 +134,7 @@
                  "value":"jitsi3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -152,7 +152,7 @@
                  "value":"jitsi4"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -180,7 +180,7 @@
                  "value":"Press SPACE to enter in conference room"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -263,7 +263,7 @@
          "name":"mountain",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -274,7 +274,7 @@
          "name":"sol",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -286,7 +286,7 @@
          "name":"shadow",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -298,7 +298,7 @@
          "name":"equipment-1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -310,7 +310,7 @@
          "name":"equipment-2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -322,7 +322,7 @@
          "name":"equipment-3",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -334,7 +334,7 @@
          "name":"equipment-4",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -346,7 +346,7 @@
          "name":"equipment-5",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -358,7 +358,7 @@
          "name":"challet",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -370,7 +370,7 @@
          "name":"text",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -382,7 +382,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -432,7 +432,7 @@
                  "value":"admin"
                 }],
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -443,7 +443,7 @@
          "name":"top-equipment-1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -455,7 +455,7 @@
          "name":"top-equipment-2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -526,7 +526,7 @@
          "name":"balloon",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
@@ -566,7 +566,7 @@
         {
          "columns":20,
          "firstgid":1,
-         "image":"..\/src\/assets\/extset_ice.png",
+         "image":"..\/src\/assets\/tilesets\/extset_ice.png",
          "imageheight":288,
          "imagewidth":640,
          "margin":0,
@@ -579,7 +579,7 @@
         {
          "columns":35,
          "firstgid":181,
-         "image":"..\/src\/assets\/mountains.png",
+         "image":"..\/src\/assets\/tilesets\/mountains.png",
          "imageheight":608,
          "imagewidth":1120,
          "margin":0,
@@ -592,7 +592,7 @@
         {
          "columns":12,
          "firstgid":846,
-         "image":"..\/src\/assets\/sol.png",
+         "image":"..\/src\/assets\/tilesets\/sol.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -605,7 +605,7 @@
         {
          "columns":10,
          "firstgid":966,
-         "image":"..\/src\/assets\/tcm-tileset3.png",
+         "image":"..\/src\/assets\/tilesets\/tcm-tileset3.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -641,7 +641,7 @@
         {
          "columns":16,
          "firstgid":1078,
-         "image":"..\/src\/assets\/modern_xmas_market_by_schwarzenacht_d8cmgm6.png",
+         "image":"..\/src\/assets\/tilesets\/modern_xmas_market_by_schwarzenacht_d8cmgm6.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -654,7 +654,7 @@
         {
          "columns":1,
          "firstgid":1334,
-         "image":"..\/src\/assets\/chair\/chair_red_down.png",
+         "image":"..\/src\/assets\/tilesets\/chair\/chair_red_down.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -667,7 +667,7 @@
         {
          "columns":1,
          "firstgid":1335,
-         "image":"..\/src\/assets\/chair\/chair_red_left.png",
+         "image":"..\/src\/assets\/tilesets\/chair\/chair_red_left.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -680,7 +680,7 @@
         {
          "columns":1,
          "firstgid":1336,
-         "image":"..\/src\/assets\/chair\/chair_red_right.png",
+         "image":"..\/src\/assets\/tilesets\/chair\/chair_red_right.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -693,7 +693,7 @@
         {
          "columns":1,
          "firstgid":1337,
-         "image":"..\/src\/assets\/chair\/chair_red_up.png",
+         "image":"..\/src\/assets\/tilesets\/chair\/chair_red_up.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -706,7 +706,7 @@
         {
          "columns":5,
          "firstgid":1338,
-         "image":"..\/src\/assets\/truck_shaveice.png",
+         "image":"..\/src\/assets\/tilesets\/truck_shaveice.png",
          "imageheight":128,
          "imagewidth":160,
          "margin":0,
@@ -719,7 +719,7 @@
         {
          "columns":3,
          "firstgid":1358,
-         "image":"..\/src\/assets\/ArtDecChair\/artdeco_chair_red_up.png",
+         "image":"..\/src\/assets\/tilesets\/ArtDecChair\/artdeco_chair_red_up.png",
          "imageheight":32,
          "imagewidth":96,
          "margin":0,
@@ -732,7 +732,7 @@
         {
          "columns":1,
          "firstgid":1361,
-         "image":"..\/src\/assets\/ArtDecChair\/artdeco_chair_red_right.png",
+         "image":"..\/src\/assets\/tilesets\/ArtDecChair\/artdeco_chair_red_right.png",
          "imageheight":96,
          "imagewidth":32,
          "margin":0,
@@ -745,7 +745,7 @@
         {
          "columns":1,
          "firstgid":1364,
-         "image":"..\/src\/assets\/ArtDecChair\/artdeco_chair_red_left.png",
+         "image":"..\/src\/assets\/tilesets\/ArtDecChair\/artdeco_chair_red_left.png",
          "imageheight":96,
          "imagewidth":32,
          "margin":0,
@@ -758,7 +758,7 @@
         {
          "columns":3,
          "firstgid":1367,
-         "image":"..\/src\/assets\/ArtDecChair\/artdeco_chair_red_down.png",
+         "image":"..\/src\/assets\/tilesets\/ArtDecChair\/artdeco_chair_red_down.png",
          "imageheight":32,
          "imagewidth":96,
          "margin":0,
@@ -771,7 +771,7 @@
         {
          "columns":2,
          "firstgid":1370,
-         "image":"..\/src\/assets\/fish_tank.png",
+         "image":"..\/src\/assets\/tilesets\/fish_tank.png",
          "imageheight":96,
          "imagewidth":64,
          "margin":0,
@@ -784,7 +784,7 @@
         {
          "columns":2,
          "firstgid":1376,
-         "image":"..\/src\/assets\/hot_dog_red_2x2.png",
+         "image":"..\/src\/assets\/tilesets\/hot_dog_red_2x2.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -797,7 +797,7 @@
         {
          "columns":6,
          "firstgid":1380,
-         "image":"..\/src\/assets\/booth_bigger_white_6x5.png",
+         "image":"..\/src\/assets\/tilesets\/booth_bigger_white_6x5.png",
          "imageheight":160,
          "imagewidth":192,
          "margin":0,
@@ -810,7 +810,7 @@
         {
          "columns":40,
          "firstgid":1410,
-         "image":"..\/src\/assets\/gather_floors_1.5.png",
+         "image":"..\/src\/assets\/tilesets\/gather_floors_1.5.png",
          "imageheight":2560,
          "imagewidth":1280,
          "margin":0,
@@ -823,7 +823,7 @@
         {
          "columns":1,
          "firstgid":4610,
-         "image":"..\/src\/assets\/christmas\/gift_yellow_pink.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_yellow_pink.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -836,7 +836,7 @@
         {
          "columns":1,
          "firstgid":4611,
-         "image":"..\/src\/assets\/christmas\/gift_red_grey.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_red_grey.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -849,7 +849,7 @@
         {
          "columns":1,
          "firstgid":4612,
-         "image":"..\/src\/assets\/christmas\/gift_purple_yellow.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_purple_yellow.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -862,7 +862,7 @@
         {
          "columns":1,
          "firstgid":4613,
-         "image":"..\/src\/assets\/christmas\/gift_orange_white.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_orange_white.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -875,7 +875,7 @@
         {
          "columns":1,
          "firstgid":4614,
-         "image":"..\/src\/assets\/christmas\/gift_green_yellow.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_green_yellow.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -888,7 +888,7 @@
         {
          "columns":1,
          "firstgid":4615,
-         "image":"..\/src\/assets\/christmas\/gift_green_grey.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_green_grey.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -901,7 +901,7 @@
         {
          "columns":1,
          "firstgid":4616,
-         "image":"..\/src\/assets\/christmas\/gift_blue_grey.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/gift_blue_grey.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -914,7 +914,7 @@
         {
          "columns":1,
          "firstgid":4617,
-         "image":"..\/src\/assets\/shadows\/partial_shadow.png",
+         "image":"..\/src\/assets\/tilesets\/shadows\/partial_shadow.png",
          "imageheight":32,
          "imagewidth":32,
          "margin":0,
@@ -927,7 +927,7 @@
         {
          "columns":8,
          "firstgid":4618,
-         "image":"..\/src\/assets\/balloons_trio_nye_1x2.png",
+         "image":"..\/src\/assets\/tilesets\/balloons_trio_nye_1x2.png",
          "imageheight":64,
          "imagewidth":256,
          "margin":0,
@@ -1181,7 +1181,7 @@
         {
          "columns":16,
          "firstgid":4634,
-         "image":"..\/src\/assets\/conference\/modern_conference.png",
+         "image":"..\/src\/assets\/tilesets\/conference\/modern_conference.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -1194,7 +1194,7 @@
         {
          "columns":1,
          "firstgid":4826,
-         "image":"..\/src\/assets\/conference\/podium_down.png",
+         "image":"..\/src\/assets\/tilesets\/conference\/podium_down.png",
          "imageheight":64,
          "imagewidth":32,
          "margin":0,
@@ -1207,7 +1207,7 @@
         {
          "columns":16,
          "firstgid":4828,
-         "image":"..\/src\/assets\/2_LivingRoom_32x32_INRIA.png",
+         "image":"..\/src\/assets\/tilesets\/2_LivingRoom_32x32_INRIA.png",
          "imageheight":1440,
          "imagewidth":512,
          "margin":0,
@@ -1220,26 +1220,13 @@
         {
          "columns":8,
          "firstgid":5548,
-         "image":"..\/src\/assets\/christmas\/deco.png",
+         "image":"..\/src\/assets\/tilesets\/christmas\/deco.png",
          "imageheight":384,
          "imagewidth":256,
          "margin":0,
          "name":"deco",
          "spacing":0,
          "tilecount":96,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":4,
-         "firstgid":5644,
-         "image":"..\/src\/assets\/text\/youtubevideo.png",
-         "imageheight":64,
-         "imagewidth":128,
-         "margin":0,
-         "name":"youtubevideo",
-         "spacing":0,
-         "tilecount":8,
          "tileheight":32,
          "tilewidth":32
         }],
