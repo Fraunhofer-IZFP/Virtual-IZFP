@@ -22,9 +22,9 @@ var ContentSignRoom4Above = 'Bernoulli'
 var ContentSignRoom4Below = 'Euler'
 
 function showPopups(target_zone, target_rectangle1, popup_content1, target_rectangle2, popup_content2){
-	WA.onEnterZone(target_zone, () => {
-		var popUpInstance1 = undefined;
-		var popUpInstance2 = undefined;
+	var popUpInstance1 = undefined;
+	var popUpInstance2 = undefined;
+	WA.onEnterZone(target_zone, () => {	
 		popUpInstance1 = WA.openPopup(target_rectangle1, popup_content1, []);
 		popUpInstance2 = WA.openPopup(target_rectangle2, popup_content2, []);
 	});
