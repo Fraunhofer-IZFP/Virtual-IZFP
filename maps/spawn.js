@@ -86,7 +86,7 @@ function showPopupEnglishGerman2(target_zone, target_rectangle, popup_content_en
 	WA.onLeaveZone(target_zone, () => {
 		if (popUpInstance !== undefined) popUpInstance.close();
 	})
-
+}
 
 function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
 	var popUpInstance = undefined;
