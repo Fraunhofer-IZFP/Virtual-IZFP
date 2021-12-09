@@ -105,8 +105,6 @@ generate_popup('pop_cliff_1', 'rect_cliff_1', msg_cliff)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
-
-
 generate_popup('pop_office_west', 'rect_office_west', msg_office_west)
 generate_popup('pop_office_west2', 'rect_office_west2', msg_office_west)
 
