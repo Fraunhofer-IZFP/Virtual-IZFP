@@ -10,10 +10,10 @@ var msg_picknick = 'The forest workspace'
 var msg_coworking = 'Co-working and chill-out areas'
 var msg_cliff = 'The cliffs'
 //msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
-var msg_orientation = 'North-west: orchard\nNorth-east: lodge, meetings\nEast: forest\nSouth-east: cliffs\nSouth:music room\nWest: red table\nCenter: silent area'
 
 var msg_orient = 'Test'
 
+//var msg_orientation = 'North-west: orchard\nNorth-east: lodge, meetings\nEast: forest\nSouth-east: cliffs\nSouth:music room\nWest: red table\nCenter: silent area'
 
 
 
