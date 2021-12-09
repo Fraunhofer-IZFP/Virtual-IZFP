@@ -50,7 +50,7 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 				callback: (popup) => {
 				// Close the popup when the "Close" button is pressed.
 				popup.close();
-				popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index],
+				popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index]
 			}]
 		}]
 		)
