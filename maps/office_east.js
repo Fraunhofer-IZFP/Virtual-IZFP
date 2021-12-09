@@ -10,6 +10,7 @@ var msg_castle_garden = 'The orchard'
 var msg_picknick = 'The forest workspace'
 var msg_coworking = 'Co-working and chill-out areas'
 var msg_cliff = 'The cliffs'
+var msg_office_west = 'To the western offices'
 
 
 
@@ -106,6 +107,8 @@ generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
 
 
+generate_popup('pop_office_west', 'rect_office_west', msg_office_west)
+generate_popup('pop_office_west2', 'rect_office_west2', msg_office_west)
 
 
 generate_popup('zone_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.")
