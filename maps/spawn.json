@@ -375,7 +375,7 @@
                 {
                  "name":"openWebsiteWidth",
                  "type":"int",
-                 "value":30
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
