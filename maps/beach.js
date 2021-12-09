@@ -33,18 +33,35 @@ function showPopup(target_zone, target_rectangle, popup_content){
 }
 
 function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
-	var popUpInstance = undefined;
 	WA.onEnterZone(target_zone, () => {
-		var index = Math.floor(Math.random() * (popup_content_german.length));
-		popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index], 
-		[{
-			label: "Close",
-			className: "primary",
-			callback: (popup) => {
-				// Close the popup when the "Close" button is pressed.
-				popup.close();
-			}
-		}]);
+		var index = Math.floor(Math.random() * (popup_content.length));
+		// get language
+		if(isEnglish)
+		{
+			popUpInstance = WA.openPopup(target_rectangle, popup_content_english[index], 
+			[{
+				label: "Deutsch",
+				className: "primary",
+				callback: (popup) => {
+					// Close the popup when the "Close" button is pressed.
+					popup.close();
+					isEnglish = false;
+				}
+			}]);
+		}
+		else 
+		{
+			popUpInstance = WA.openPopup(target_rectangle, popup_content_german[index], 
+			[{
+				label: "English",
+				className: "primary",
+				callback: (popup) => {
+					// Close the popup when the "Close" button is pressed.
+					popup.close();
+					isEnglish = true;
+				}
+			}]);
+		}
 	});
 	WA.onLeaveZone(target_zone, () => {
 		if (popUpInstance !== undefined) popUpInstance.close();
