@@ -1,15 +1,16 @@
 // important variables
 
-msg_silent_area = 'Bridge to silent area'
-msg_forest_lodge = 'Forest lodge'
-msg_music_room = 'Music room'
-msg_throne_room = 'The red table room'
-msg_storage = 'Storage'
-msg_castle_garden = 'The orchard'
-msg_picknick = 'The forest workspace'
-msg_coworking = 'Co-working and chill-out areas'
+var msg_silent_area = 'Bridge to silent area'
+var msg_forest_lodge = 'Forest lodge'
+var msg_music_room = 'Music room'
+var msg_throne_room = 'The red table room'
+var msg_storage = 'Storage'
+var msg_castle_garden = 'The orchard'
+var msg_picknick = 'The forest workspace'
+var msg_coworking = 'Co-working and chill-out areas'
+var msg_cliff = 'The cliffs'
 //msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
-msg_orientation = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest workspace\nSouth:Music room castle\nWest: castle red table\nCenter: silent area'
+var msg_orientation = 'North-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest workspace\nSouth-east: cliffs\nSouth:Music room castle\nWest: castle red table\nCenter: silent area'
 
 
 
@@ -89,6 +90,9 @@ generate_popup('pop_castle_garden_left', 'rect_castle_garden_left', msg_castle_g
 
 generate_popup('zone_picknick_top', 'rect_picknick_top', msg_picknick)
 generate_popup('zone_picknick_bottom', 'rect_picknick_bottom', msg_picknick)
+
+generate_popup('pop_cliff_0', 'rect_cliff_0', msg_cliff)
+generate_popup('pop_cliff_1', 'rect_cliff_1', msg_cliff)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
