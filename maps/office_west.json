@@ -60,7 +60,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officeeast#start_OfficeWest2"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officeeast#start_OfficeWest"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -78,7 +78,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officeeast#start_OfficeWest"
+                 "value":"https:\/\/play.workadventu.re\/@\/izfp-newwork\/general\/officeeast#start_OfficeWest2"
                 }],
          "type":"tilelayer",
          "visible":true,
