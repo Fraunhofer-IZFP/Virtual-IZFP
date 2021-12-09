@@ -3,12 +3,14 @@ var targetRectangleSignOfficeEast = 'PopupSignOfficeEast'
 var targetRectangleSignFunArea = 'PopupSignFunArea'
 var targetRectangleSignForum = 'PopupSignForum'
 var targetRectangleSignBeach = 'PopupSignBeach'
+var targetRectangleScarecrow = 'PopupScarecrow'
 
 var targetTriggerZoneSignOfficeWest = 'popup_sign_office_west'
 var targetTriggerZoneSignOfficeEast = 'popup_sign_office_east'
 var targetTriggerZoneSignFunArea = 'popup_sign_fun_area'
 var targetTriggerZoneSignForum = 'popup_sign_forum'
 var targetTriggerZoneSignBeach = 'popup_sign_beach'
+var targetTriggerZoneScarecrow = 'popup_scarecrow'
 
 var contentSignOfficeWestEnglish = ['To the western offices']
 var contentSignOfficeWestGerman = ['Zu den westlichen Büros']
@@ -20,6 +22,8 @@ var contentSignForumEnglish = ['To the Forum.\nYou will find the meeting rooms t
 var contentSignForumGerman = ['Zum Forum.\nDort gibt es Besprechungsräume.']
 var contentSignBeachEnglish = ['To the silent beach.\nTrust me, it is relaxing.']
 var contentSignBeachGerman = ['Zum ruhigen Strand.\nMan sagt, es sei erholsam.']
+var contentScarecrowEnglish = ['Some people without brains do an awful lot of talking, don\'t you think?']
+var contentScarecrowGerman = ['Manche Leute ohne Hirn reden furchtbar viel, finden Sie nicht auch?']
 
 var isEnglish = false
 
@@ -76,3 +80,4 @@ showPopupEnglishGerman(targetTriggerZoneSignOfficeEast, targetRectangleSignOffic
 showPopupEnglishGerman(targetTriggerZoneSignFunArea, targetRectangleSignFunArea, contentSignFunAreaEnglish, contentSignFunAreaGerman)
 showPopupEnglishGerman(targetTriggerZoneSignForum, targetRectangleSignForum, contentSignForumEnglish, contentSignForumGerman)
 showPopupEnglishGerman(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
+showPopupEnglishGerman(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
