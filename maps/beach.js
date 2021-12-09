@@ -33,8 +33,9 @@ function showPopup(target_zone, target_rectangle, popup_content){
 }
 
 function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_english, popup_content_german){
+	var popUpInstance = undefined;
 	WA.onEnterZone(target_zone, () => {
-		var index = Math.floor(Math.random() * (popup_content.length));
+		var index = Math.floor(Math.random() * Math.min(popup_content_english.length, popup_content_german.length));
 		// get language
 		if(isEnglish)
 		{
