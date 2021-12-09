@@ -4,6 +4,7 @@ var targetRectangleSignFunArea = 'PopupSignFunArea'
 var targetRectangleSignForum = 'PopupSignForum'
 var targetRectangleSignBeach = 'PopupSignBeach'
 var targetRectangleScarecrow = 'PopupScarecrow'
+var targetRectangleSignOverview = 'PopupSignOverview'
 
 var targetTriggerZoneSignOfficeWest = 'popup_sign_office_west'
 var targetTriggerZoneSignOfficeEast = 'popup_sign_office_east'
@@ -11,6 +12,7 @@ var targetTriggerZoneSignFunArea = 'popup_sign_fun_area'
 var targetTriggerZoneSignForum = 'popup_sign_forum'
 var targetTriggerZoneSignBeach = 'popup_sign_beach'
 var targetTriggerZoneScarecrow = 'popup_scarecrow'
+var targetTriggerZoneSignOverview = 'popup_sign_overview'
 
 var contentSignOfficeWestEnglish = ['To the western offices']
 var contentSignOfficeWestGerman = ['Zu den westlichen Büros']
@@ -24,6 +26,8 @@ var contentSignBeachEnglish = ['To the silent beach.\nTrust me, it is relaxing.'
 var contentSignBeachGerman = ['Zum ruhigen Strand.\nMan sagt, es sei erholsam.']
 var contentScarecrowEnglish = ['Some people without brains do an awful lot of talking, don\'t you think?']
 var contentScarecrowGerman = ['Manche Leute ohne Hirn reden furchtbar viel, finden Sie nicht auch?']
+var contentSignOverviewEnglish = ['Orientation:\n\nNorth-west: Library\nNorth: Offices\nEast: Forum with meeting rooms\nSouth: Fun area, be aware!\nWest: Silent beach\nCenter: Events and meetup']
+var contentSignOverviewGerman = ['Orientierung:\n\nNord-Westen: Bibliothek\nNorden: Büros\nOsten: Forum mit Besprechungsräumen\nSüden: Spiel und Spaß, uffbasse!\nWesten: Entspannung am Strand\nCenter: Veranstaltungen und Treffen']
 
 var isEnglish = false
 
@@ -32,58 +36,6 @@ function showPopup(target_zone, target_rectangle, popup_content){
 	var popUpInstance = undefined;
 		var index = Math.floor(Math.random() * (popup_content.length));
 		popUpInstance = WA.openPopup(target_rectangle, popup_content[index], [])
-	});
-	WA.onLeaveZone(target_zone, () => {
-		if (popUpInstance !== undefined) popUpInstance.close();
-	})
-}
-
-function showGerman(target_rectangle, popup_content_english, popup_content_german) 
-{
-	var popUpInstance = undefined;
-	popUpInstance = WA.openPopup(target_rectangle, popup_content_german, 
-			[{
-				label: "English",
-				className: "primary",
-				callback: (popup) => {
-					// Close the popup when the "Close" button is pressed.
-					popup.close();
-					isEnglish = true;
-					popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
-				}
-			}]);
-			return popUpInstance;
-}	
-
-function showEnglish(target_rectangle, popup_content_english, popup_content_german) 
-{
-	var popUpInstance = undefined;
-	popUpInstance = WA.openPopup(target_rectangle, popup_content_english, 
-			[{
-				label: "German",
-				className: "primary",
-				callback: (popup) => {
-					// Close the popup when the "Close" button is pressed.
-					popup.close();
-					isEnglish = false;
-					popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german);
-				}
-			}]);
-			return popUpInstance;
-}	
-
-function showPopupEnglishGerman2(target_zone, target_rectangle, popup_content_english, popup_content_german){
-	var popUpInstance = undefined;
-	WA.onEnterZone(target_zone, () => {
-		// get language
-		if(isEnglish)
-		{
-			popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
-		}
-		else 
-		{
-			popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german); 
-		}
 	});
 	WA.onLeaveZone(target_zone, () => {
 		if (popUpInstance !== undefined) popUpInstance.close();
@@ -127,9 +79,64 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 	})
 }
 
-showPopupEnglishGerman2(targetTriggerZoneSignOfficeWest, targetRectangleSignOfficeWest, contentSignOfficeWestEnglish, contentSignOfficeWestGerman)
-showPopupEnglishGerman2(targetTriggerZoneSignOfficeEast, targetRectangleSignOfficeEast, contentSignOfficeEastEnglish, contentSignOfficeEastGerman)
-showPopupEnglishGerman2(targetTriggerZoneSignFunArea, targetRectangleSignFunArea, contentSignFunAreaEnglish, contentSignFunAreaGerman)
-showPopupEnglishGerman2(targetTriggerZoneSignForum, targetRectangleSignForum, contentSignForumEnglish, contentSignForumGerman)
-showPopupEnglishGerman2(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
-showPopupEnglishGerman2(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
+showPopupEnglishGerman(targetTriggerZoneSignOfficeWest, targetRectangleSignOfficeWest, contentSignOfficeWestEnglish, contentSignOfficeWestGerman)
+showPopupEnglishGerman(targetTriggerZoneSignOfficeEast, targetRectangleSignOfficeEast, contentSignOfficeEastEnglish, contentSignOfficeEastGerman)
+showPopupEnglishGerman(targetTriggerZoneSignFunArea, targetRectangleSignFunArea, contentSignFunAreaEnglish, contentSignFunAreaGerman)
+showPopupEnglishGerman(targetTriggerZoneSignForum, targetRectangleSignForum, contentSignForumEnglish, contentSignForumGerman)
+showPopupEnglishGerman(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
+showPopupEnglishGerman(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
+showPopupEnglishGerman(targetTriggerZoneSignOverview, targetRectangleSignOverview, contentSignOverviewEnglish, contentSignOverviewGerman)
+
+// did not work as expected but could be a starting point for future $team
+
+// function showGerman(target_rectangle, popup_content_english, popup_content_german) 
+// {
+	// var popUpInstance = undefined;
+	// popUpInstance = WA.openPopup(target_rectangle, popup_content_german, 
+			// [{
+				// label: "English",
+				// className: "primary",
+				// callback: (popup) => {
+					// // Close the popup when the "Close" button is pressed.
+					// popup.close();
+					// isEnglish = true;
+					// popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
+				// }
+			// }]);
+			// return popUpInstance;
+// }	
+
+// function showEnglish(target_rectangle, popup_content_english, popup_content_german) 
+// {
+	// var popUpInstance = undefined;
+	// popUpInstance = WA.openPopup(target_rectangle, popup_content_english, 
+			// [{
+				// label: "German",
+				// className: "primary",
+				// callback: (popup) => {
+					// // Close the popup when the "Close" button is pressed.
+					// popup.close();
+					// isEnglish = false;
+					// popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german);
+				// }
+			// }]);
+			// return popUpInstance;
+// }	
+
+// function showPopupEnglishGerman2(target_zone, target_rectangle, popup_content_english, popup_content_german){
+	// var popUpInstance = undefined;
+	// WA.onEnterZone(target_zone, () => {
+		// // get language
+		// if(isEnglish)
+		// {
+			// popUpInstance = showEnglish(target_rectangle, popup_content_english, popup_content_german);
+		// }
+		// else 
+		// {
+			// popUpInstance = showGerman(target_rectangle, popup_content_english, popup_content_german); 
+		// }
+	// });
+	// WA.onLeaveZone(target_zone, () => {
+		// if (popUpInstance !== undefined) popUpInstance.close();
+	// })
+// }
