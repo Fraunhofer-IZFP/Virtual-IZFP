@@ -32,8 +32,8 @@ var contentSignOverviewGerman = ['Orientierung:\n\nNord-Westen: Bibliothek\nNord
 var isEnglish = false
 
 function showPopup(target_zone, target_rectangle, popup_content){
-	WA.onEnterZone(target_zone, () => {
 	var popUpInstance = undefined;
+	WA.onEnterZone(target_zone, () => {
 		var index = Math.floor(Math.random() * (popup_content.length));
 		popUpInstance = WA.openPopup(target_rectangle, popup_content[index], [])
 	});
