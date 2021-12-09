@@ -9,11 +9,9 @@ var msg_castle_garden = 'The orchard'
 var msg_picknick = 'The forest workspace'
 var msg_coworking = 'Co-working and chill-out areas'
 var msg_cliff = 'The cliffs'
-//msg_orientation = 'Castle red table room: west\nCastle music room: south\nOrchard: north-west\nForest lodge: north-east\nmeeting area: north east\nforest workspace: east\nsilent area:center'
 
 var msg_orient = 'Test'
 
-//var msg_orientation = 'North-west: orchard\nNorth-east: lodge, meetings\nEast: forest\nSouth-east: cliffs\nSouth:music room\nWest: red table\nCenter: silent area'
 
 
 
@@ -73,6 +71,15 @@ function display_random_goethe_quote(target_zone, target_rectangle){
 
 
 // pop-up-generation
+
+generate_popup('zone_orientation_0', 'rect_orientation_0', msg_orient)
+generate_popup('zone_orientation_1', 'rect_orientation_1', msg_orient)
+generate_popup('zone_orientation_2', 'rect_orientation_2', msg_orient)
+generate_popup('zone_orientation_3', 'rect_orientation_3', msg_orient)
+generate_popup('zone_orientation_4', 'rect_orientation_4', msg_orient)
+generate_popup('zone_orientation_5', 'rect_orientation_5', msg_orient)
+
+
 generate_popup('silent_zone_pop_bottom', 'tutoExplanation', msg_silent_area)
 generate_popup('silent_zone_pop_left', 'rect_silent_left', msg_silent_area)
 generate_popup('silent_zone_pop_right', 'rect_silent_right', msg_silent_area)
@@ -98,12 +105,6 @@ generate_popup('pop_cliff_1', 'rect_cliff_1', msg_cliff)
 
 generate_popup('pop_cowork', 'rect_meeting', msg_coworking)
 
-generate_popup('zone_orientation_0', 'rect_orientation_0', msg_orient)
-generate_popup('zone_orientation_1', 'rect_orientation_1', msg_orient)
-generate_popup('zone_orientation_2', 'rect_orientation_2', msg_orient)
-generate_popup('zone_orientation_3', 'rect_orientation_3', msg_orient)
-generate_popup('zone_orientation_4', 'rect_orientation_4', msg_orient)
-generate_popup('zone_orientation_5', 'rect_orientation_5', msg_orient)
 
 
 
