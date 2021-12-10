@@ -432,17 +432,6 @@
                  "y":1666
                 }, 
                 {
-                 "height":0,
-                 "id":10,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1019.5,
-                 "y":1700
-                }, 
-                {
                  "height":168,
                  "id":11,
                  "name":"rect_market_and_farm",
