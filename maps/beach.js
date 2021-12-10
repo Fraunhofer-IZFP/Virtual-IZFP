@@ -26,7 +26,8 @@ var quotes_fishing= [
 	'Hilfe, mein Fisch ertrinkt!',
 	'Ich verstehe jetzt, dass die Fische nicht anbeißen: Ich hab mal so einen Wurm probiert...',
 	'Lieber Regen beim Angeln als Sonne beim arbeiten.',
-	'Ich habe den Sachsen das Angeln beigebracht. Seitdem heißen sie Angelsachsen. Ich bin der König aller Angler.'
+	'Ich habe den Sachsen das Angeln beigebracht. Seitdem heißen sie Angelsachsen. Ich bin der König aller Angler.',
+	'Wie hört es sich an, wenn Chuck Norris angeln geht? — Du, Du und Du: rauskommen!'
 	]
 
 function showPopup(target_zone, target_rectangle, popup_content){
