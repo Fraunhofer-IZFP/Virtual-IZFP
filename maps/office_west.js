@@ -17,7 +17,7 @@ chuck_norris_jokes_german = [
 	"Chuck Norris unterscheidet Atom- und Ökostrom am Geschmack.",
 	"Chuck Norris kann die Zeit totschlagen.",
 	"Chuck Norris durchquert die Wüste immer mit zwei Kamelen, denn die Gewichtsverteilung ist einfach besser, wenn man unter beiden Armen etwas trägt.",
-	"Wie hört es sich an, wenn Chuck Norris angeln geht? — Du, Du und Du: rauskommen"'
+	"Wie hört es sich an, wenn Chuck Norris angeln geht? — Du, Du und Du: rauskommen"
 ]
 chuck_norris_jokes_english = [
 	"Chuck Norris\' tears can cure cancer. Too bad he never cries!",
@@ -39,7 +39,7 @@ chuck_norris_jokes_english = [
 	"When Chuck Norris was born, the doctor asked him to name his parents.",
 	"When Chuck Norris does division, there are no remainders.",
 	"Chuck Norris can clap with one hand.",
-	"Chuck Norris knows exactly what to do with the drunken sailors early in the morning"'
+	"Chuck Norris knows exactly what to do with the drunken sailors early in the morning"
 ]
 
 msg_dining_room_english = "Jitsi dining room"
