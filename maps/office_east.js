@@ -1,4 +1,4 @@
-// important variables
+// message texts
 
 var msg_orient = 'Orientation:\n\nNorth-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest camp\nSouth-east: cliffs\nSouth-west:castle music room\nWest: castle red table\nCenter: silent area'
 var msg_silent_area = 'Bridge to silent area'
@@ -26,9 +26,6 @@ var msg_cliff_de = 'The cliffs'
 var msg_office_west_de = 'To the western offices'
 
 
-
-
-
 var quotes_goethe = [
 	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.\n\nJohann Wolfgang von Goethe',
 	'Es hört doch nur jeder, was er versteht.\n\nJohann Wolfgang von Goethe',
@@ -39,6 +36,9 @@ var quotes_goethe = [
 	'Jede Lösung eines Problems ist ein neues Problem.\n\nJohann Wolfgang von Goethe',
 	'Das Gleiche lässt uns in Ruhe, aber der Widerspruch ist es, der uns produktiv macht.\n\nJohann Wolfgang von Goethe',	
 	]
+
+// further variables
+var isEnglish = false // map language (for user)
 
 
 // helper scripts
