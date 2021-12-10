@@ -1,16 +1,16 @@
 // message texts
 
-msg_orient = ['Orientation:\n\nNorth-west: orchard\nNorth-east: forest lodge, meeting area\nEast: forest camp\nSouth-east: cliffs\nSouth-west:castle music room\nWest: castle red table\nCenter: silent area']
+msg_orient = ['Orientation:\n\nNorthwest: Orchard\nNortheast: Forest Lodge, Meeting Area\nEast: Forest Camp\nSoutheast: Cliffs\nSouthwest: Castle Music Room\nWest: Castle Red Table Room\nCenter: silent area']
 msg_silent_area = ['Bridge to silent area']
-msg_forest_lodge = ['Forest lodge']
+msg_forest_lodge = ['Forest Lodge']
 msg_music_room = ['Music room']
-msg_throne_room = ['The red table room']
+msg_throne_room = ['The Red Table Room']
 msg_storage = ['Storage']
-msg_castle_garden = ['The orchard']
-msg_picknick = ['The forest workspace']
+msg_castle_garden = ['The Orchard']
+msg_picknick = ['The Forest Workspace']
 msg_coworking = ['Co-working and chill-out areas']
-msg_cliff = ['The cliffs']
-msg_office_west = ['To the western offices']
+msg_cliff = ['The Cliffs']
+msg_office_west = ['To the Western Offices']
 
 
 msg_orient_de = ['Orientierung:\n\nNordwest: Obstgarten\nNordost: Waldhütte, Meetings\nOst: Waldplatz\nSüdost: Die Klippen\nSüdwest: Musikzimmer Schloss\nWesten: Roter Tisch Schloss\nZentrum: Stille']

@@ -18,7 +18,7 @@ var contentSignOfficeWestEnglish = ['To the western offices']
 var contentSignOfficeWestGerman = ['Zu den westlichen Büros']
 var contentSignOfficeEastEnglish = ['To the eastern offices']
 var contentSignOfficeEastGerman = ['Zu den östlichen Büros']
-var contentSignFunAreaEnglish = ['Danger!\nYou will now enter the IZFP "fun" area.\nStill under construction!']
+var contentSignFunAreaEnglish = ['Danger!\nYou will now enter the IZFP "fun" area.\nUnder construction!']
 var contentSignFunAreaGerman = ['Gefahr!\nSie betreten nun die IZFP-"Spaß"-Ecke.\nBetreten der Baustelle weder sinnvoll noch empfohlen!']
 var contentSignForumEnglish = ['To the Forum.\nYou will find the meeting rooms there']
 var contentSignForumGerman = ['Zum Forum.\nDort gibt es Besprechungsräume.']
@@ -26,7 +26,7 @@ var contentSignBeachEnglish = ['To the silent beach.\nTrust me, it is relaxing.'
 var contentSignBeachGerman = ['Zum ruhigen Strand.\nMan sagt, es sei erholsam.']
 var contentScarecrowEnglish = ['Some people without brains do an awful lot of talking, don\'t you think?']
 var contentScarecrowGerman = ['Manche Leute ohne Hirn reden furchtbar viel, finden Sie nicht auch?']
-var contentSignOverviewEnglish = ['Orientation:\n\nNorth-west: Library\nNorth: Offices\nEast: Forum with meeting rooms\nSouth: Fun area, be aware!\nWest: Silent beach\nCenter: Events and meetup']
+var contentSignOverviewEnglish = ['Orientation:\n\nNorth-west: Library\nNorth: Offices\nEast: Forum with meeting rooms\nSouth: Fun area, beware!\nWest: Silent beach\nCenter: Events and meetup']
 var contentSignOverviewGerman = ['Orientierung:\n\nNord-Westen: Bibliothek\nNorden: Büros\nOsten: Forum mit Besprechungsräumen\nSüden: Spiel und Spaß, uffbasse!\nWesten: Entspannung am Strand\nCenter: Veranstaltungen und Treffen']
 
 var isEnglish = false
