@@ -1,8 +1,8 @@
 // important variables
-triggerZoneChuckNorris = 'popup_chuck_norris'
-targetRectangleChuckNorris = 'PopupChuckNorris'
+var triggerZoneChuckNorris = 'popup_chuck_norris'
+var targetRectangleChuckNorris = 'PopupChuckNorris'
 
-chuck_norris_jokes_german = [
+var chuck_norris_jokes_german = [
 	"Chuck Norris isst keinen Honig, er kaut Bienen!",
 	"Wie viele Liegestütze schafft Chuck Norris? Alle!",
 	"Chuck Norris kann schwarze Filzstifte nach Farben sortieren.",
@@ -19,7 +19,7 @@ chuck_norris_jokes_german = [
 	"Chuck Norris durchquert die Wüste immer mit zwei Kamelen, denn die Gewichtsverteilung ist einfach besser, wenn man unter beiden Armen etwas trägt.",
 	"Wie hört es sich an, wenn Chuck Norris angeln geht? — Du, Du und Du: rauskommen"
 ]
-chuck_norris_jokes_english = [
+var chuck_norris_jokes_english = [
 	"Chuck Norris\' tears can cure cancer. Too bad he never cries!",
 	"Chuck Norris killed two stones with one bird.",
 	"Chuck Norris once won a game of connect four in three moves.",
@@ -42,20 +42,20 @@ chuck_norris_jokes_english = [
 	"Chuck Norris knows exactly what to do with the drunken sailors early in the morning"
 ]
 
-msg_dining_room_english = "Jitsi dining room"
-msg_market_farm_english = "North: farm\nEast: market"
-msg_map_east_english = "To the Eastern Offices"
-msg_quiet_area_english = "Silent area"
-msg_lib_english = "Library"
-msg_throne_english = "Audience Chamber"
+var msg_dining_room_english = "Jitsi dining room"
+var msg_market_farm_english = "North: farm\nEast: market"
+var msg_map_east_english = "To the Eastern Offices"
+var msg_quiet_area_english = "Silent area"
+var msg_lib_english = "Library"
+var msg_throne_english = "Audience Chamber"
 
 
-msg_dining_room_german = "Jitsi-Esszimmer"
-msg_market_farm_german = "Norden: Bauernhof\nOsten: Markt"
-msg_map_east_german = "Zu den östlichen Büros"
-msg_quiet_area_german = "Stille Ecke"
-msg_lib_german = "Bibliothek"
-msg_throne_german = "Thronsaal"
+var msg_dining_room_german = "Jitsi-Esszimmer"
+var msg_market_farm_german = "Norden: Bauernhof\nOsten: Markt"
+var msg_map_east_german = "Zu den östlichen Büros"
+var msg_quiet_area_german = "Stille Ecke"
+var msg_lib_german = "Bibliothek"
+var msg_throne_german = "Thronsaal"
 
 
 var isEnglish = false
