@@ -25,13 +25,6 @@ msg_quiet_area_german = 'Stille Ecke'
 msg_lib_german = 'Bibliothek'
 msg_throne_german = 'Thronsaal'
 
-showPopupEnglishGerman('zone_dining_room', 'rect_dining_room', msg_dining_room_english, msg_dining_room_german)
-showPopupEnglishGerman('zone_market_and_farm', 'rect_market_and_farm', msg_market_farm_english, msg_market_farm_german)
-showPopupEnglishGerman('zone_map_east_2', 'rect_map_east_2', msg_map_east_english, msg_map_east_german)
-showPopupEnglishGerman('zone_map_east', 'rect_map_east', msg_map_east_english, msg_map_east_german)
-showPopupEnglishGerman('zone_quiet_area', 'rect_quiet_area', msg_quiet_area_english, msg_quiet_area_german)
-showPopupEnglishGerman('zone_lib', 'rect_lib', msg_lib_english, msg_lib_german)
-showPopupEnglishGerman('zone_throne', 'rect_throne', msg_throne_english, msg_throne_german)
 
 var isEnglish = false
 
@@ -98,7 +91,13 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 
 // multi language popups
 showPopupEnglishGerman(triggerZoneChuckNorris, targetRectangleChuckNorris, chuck_norris_jokes_english, chuck_norris_jokes_german)
-
+showPopupEnglishGerman('zone_dining_room', 'rect_dining_room', msg_dining_room_english, msg_dining_room_german)
+showPopupEnglishGerman('zone_market_and_farm', 'rect_market_and_farm', msg_market_farm_english, msg_market_farm_german)
+showPopupEnglishGerman('zone_map_east_2', 'rect_map_east_2', msg_map_east_english, msg_map_east_german)
+showPopupEnglishGerman('zone_map_east', 'rect_map_east', msg_map_east_english, msg_map_east_german)
+showPopupEnglishGerman('zone_quiet_area', 'rect_quiet_area', msg_quiet_area_english, msg_quiet_area_german)
+showPopupEnglishGerman('zone_lib', 'rect_lib', msg_lib_english, msg_lib_german)
+showPopupEnglishGerman('zone_throne', 'rect_throne', msg_throne_english, msg_throne_german)
 
 // pop-up-generation
 // generate_popup('zone_dining_room', 'rect_dining_room', msg_dining_room)
