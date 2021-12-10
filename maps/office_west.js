@@ -42,20 +42,20 @@ var chuck_norris_jokes_english = [
 	"Chuck Norris knows exactly what to do with the drunken sailors early in the morning"
 ]
 
-var msg_dining_room_english = "Jitsi dining room"
-var msg_market_farm_english = "North: farm\nEast: market"
-var msg_map_east_english = "To the Eastern Offices"
-var msg_quiet_area_english = "Silent area"
-var msg_lib_english = "Library"
-var msg_throne_english = "Audience Chamber"
+var msg_dining_room_english = ["Jitsi dining room"]
+var msg_market_farm_english = ["North: farm\nEast: market"]
+var msg_map_east_english = ["To the Eastern Offices"]
+var msg_quiet_area_english = ["Silent area"]
+var msg_lib_english = ["Library"]
+var msg_throne_english = ["Audience Chamber"]
 
 
-var msg_dining_room_german = "Jitsi-Esszimmer"
-var msg_market_farm_german = "Norden: Bauernhof\nOsten: Markt"
-var msg_map_east_german = "Zu den östlichen Büros"
-var msg_quiet_area_german = "Stille Ecke"
-var msg_lib_german = "Bibliothek"
-var msg_throne_german = "Thronsaal"
+var msg_dining_room_german = ["Jitsi-Esszimmer"]
+var msg_market_farm_german = ["Norden: Bauernhof\nOsten: Markt"]
+var msg_map_east_german = ["Zu den östlichen Büros"]
+var msg_quiet_area_german = ["Stille Ecke"]
+var msg_lib_german = ["Bibliothek"]
+var msg_throne_german = ["Thronsaal"]
 
 
 var isEnglish = false
