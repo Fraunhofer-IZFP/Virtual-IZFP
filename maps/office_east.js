@@ -119,7 +119,7 @@ showPopupEnglishGerman('pop_office_west', 'rect_office_west', msg_office_west,ms
 showPopupEnglishGerman('pop_office_west2', 'rect_office_west2', msg_office_west,msg_office_west_de)
 
 
-showPopupEnglishGerman('zone_goethe_2', 'rect_goethe_2', "The tiny sign says: Goethe has (never) been here.", "Auf dem kleinen Schild steht: Goethe war (nie) hier.")
+showPopupEnglishGerman('zone_goethe_2', 'rect_goethe_2', ["The tiny sign says: Goethe has (never) been here."], ["Auf dem kleinen Schild steht: Goethe war (nie) hier."])
 
 showPopupEnglishGerman('zone_goethe', 'rect_goethe_quotes', quotes_goethe, quotes_goethe)
 
