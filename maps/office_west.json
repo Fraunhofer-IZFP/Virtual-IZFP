@@ -8,6 +8,12 @@
          "id":6,
          "name":"start",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
@@ -432,17 +438,6 @@
                  "y":1666
                 }, 
                 {
-                 "height":0,
-                 "id":10,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1019.5,
-                 "y":1700
-                }, 
-                {
                  "height":168,
                  "id":11,
                  "name":"rect_market_and_farm",
@@ -509,15 +504,15 @@
                  "y":1238.66666666667
                 }, 
                 {
-                 "height":74.25,
+                 "height":136.916666666667,
                  "id":17,
                  "name":"PopupChuckNorris",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":102.75,
-                 "x":1856.75,
-                 "y":1756.75
+                 "width":164.75,
+                 "x":1821.41666666667,
+                 "y":1694.08333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
