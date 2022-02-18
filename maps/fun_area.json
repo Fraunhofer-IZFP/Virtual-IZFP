@@ -28,9 +28,19 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/skribbl.io\/?5mGCrwMaooHy"
+                }, 
+                {
                  "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Here you can skribbln together with others"
                 }],
          "type":"tilelayer",
          "visible":true,
