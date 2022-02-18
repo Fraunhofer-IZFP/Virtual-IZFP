@@ -40,7 +40,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Here you can skribbln together with others"
+                 "value":"Here you can skribbl together with others"
                 }],
          "type":"tilelayer",
          "visible":true,
