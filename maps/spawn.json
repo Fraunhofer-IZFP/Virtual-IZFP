@@ -378,7 +378,7 @@
                 {
                  "name":"startLayer",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -417,9 +417,14 @@
                  "value":"https:\/\/www.sei-gmbh.de\/webcams\/images\/cam_36_hq.jpg"
                 }, 
                 {
-                 "name":"openWebsiteWidth",
-                 "type":"int",
-                 "value":50
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Webcam ILM"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -440,9 +445,14 @@
                  "value":"http:\/\/webcam.intersaar.de\/saarbruecken-theater\/saarbruecken-theater.jpg"
                 }, 
                 {
-                 "name":"openWebsiteWidth",
-                 "type":"int",
-                 "value":50
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Webcam Saarbr\u00fccken"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -509,9 +519,14 @@
                  "value":"https:\/\/libero.sulb.uni-saarland.de\/libero\/WebopacOpenURL.cls?ACTION=MEMBERSERV&sid=Libero:SUB"
                 }, 
                 {
-                 "name":"openWebsiteWidth",
-                 "type":"int",
-                 "value":70
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"WebOPAC"
                 }],
          "type":"tilelayer",
          "visible":true,
