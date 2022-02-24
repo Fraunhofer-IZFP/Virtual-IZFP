@@ -29,7 +29,23 @@ var contentScarecrowGerman = ['Manche Leute ohne Hirn reden furchtbar viel, find
 var contentSignOverviewEnglish = ['Orientation:\n\nNorth-west: Library\nNorth: Offices\nEast: Forum with meeting rooms\nSouth: Fun area, beware!\nWest: Silent beach\nCenter: Events and meetup']
 var contentSignOverviewGerman = ['Orientierung:\n\nNord-Westen: Bibliothek\nNorden: Büros\nOsten: Forum mit Besprechungsräumen\nSüden: Spiel und Spaß, uffbasse!\nWesten: Entspannung am Strand\nZentrum: Veranstaltungen und Treffen']
 
+var targetZoneOldOak = 'popup_oldoak'
+var targetRectangleOldOak = 'PopupOldOak'
+//var targetTriggerZoneOldOak = 'popup_oldoak'
+
+
 var isEnglish = false
+
+var quotes_phrases= [
+	'Don’t count the chickens before they are hatched.',
+	'A bird in the hand is worth two in the bush.',
+	'Actions speak louder than words.',
+	'Strike while the iron is hot.',
+	'Who fights can lose, who doesn’t fight has already lost.',
+	'The proof of the pudding is in the eating.',
+	'Fine feathers make fine birds.',
+	'You cannot find peace by avoiding life.'
+	]
 
 function showPopup(target_zone, target_rectangle, popup_content) {
 	var popUpInstance = undefined;
@@ -84,6 +100,10 @@ showPopupEnglishGerman(targetTriggerZoneSignForum, targetRectangleSignForum, con
 showPopupEnglishGerman(targetTriggerZoneSignBeach, targetRectangleSignBeach, contentSignBeachEnglish, contentSignBeachGerman)
 showPopupEnglishGerman(targetTriggerZoneScarecrow, targetRectangleScarecrow, contentScarecrowEnglish, contentScarecrowGerman)
 showPopupEnglishGerman(targetTriggerZoneSignOverview, targetRectangleSignOverview, contentSignOverviewEnglish, contentSignOverviewGerman)
+
+//showPopup(targetZoneSign, targetRectangleSign, contentSign)
+showPopup(targetZoneOldOak, targetRectangleOldOak, quotes_phrases)
+
 
 // did not work as expected but could be a starting point for future $team
 
