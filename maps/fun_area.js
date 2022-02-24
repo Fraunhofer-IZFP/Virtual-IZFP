@@ -1,18 +1,20 @@
-/// ToDo:
-//var targetRectangleSignBeach = 'PopupSignBeach'
-//var targetRectangleSignMoaiIsland = 'PopupSignMoaiIsland'
 var targetRectangleSignFunAreaEntry = 'PopupSignFunAreaEntry'
 var targetRectangleSignFunAreaOverview = 'PopupSignFunAreaOverview'
-/// ToDo:
-//var targetTriggerZoneSignBeach = 'popup_sign_beach'
-//var targetTriggerZoneSignMoaiIsland = 'popup_sign_moai_island'
+// ToDo:
+// var targetRectangleSignBeach = 'PopupSignBeach'
+// var targetRectangleSignMoaiIsland = 'PopupSignMoaiIsland'
+
 var targetTriggerZoneSignFunAreaEntry = 'popup_sign_fun_area_entry'
 var targetTriggerZoneSignFunAreaOverview = 'popup_sign_fun_area_overview'
-/// ToDo:
-//var contentSignBeachEnglish = ['To the beach']
-//var contentSignBeachGerman = ['Zum Strand']
-var contentSignMoaiIslandEnglish = ['To the Moai-Island']
-var contentSignMoaiIslandGerman = ['Zur Moai-Insel']
+// ToDo:
+// var targetTriggerZoneSignBeach = 'popup_sign_beach'
+// var targetTriggerZoneSignMoaiIsland = 'popup_sign_moai_island'
+
+//var contentSignMoaiIslandEnglish = ['To the Moai-Island']
+//var contentSignMoaiIslandGerman = ['Zur Moai-Insel']
+// ToDo:
+// var contentSignBeachEnglish = ['To the beach']
+// var contentSignBeachGerman = ['Zum Strand']
 
 var contentSignFunAreaEntryEnglish = ['Welcome to the IZFP "fun" area.\nEntering the cave at your own risk!']
 var contentSignFunAreaEntryGerman = ['Willkommen in der IZFP-"Spaß"-Ecke.\nBetreten der Höhle auf eigene Gefahr!']
@@ -86,5 +88,3 @@ function showPopupEnglishGerman(target_zone, target_rectangle, popup_content_eng
 showPopupEnglishGerman(targetTriggerZoneSignFunAreaEntry, targetRectangleSignFunAreaEntry, contentSignFunAreaEntryEnglish, contentSignFunAreaEntryGerman)
 showPopupEnglishGerman(targetTriggerZoneSignFunAreaOverview, targetRectangleSignFunAreaOverview, contentSignFunAreaOverviewEnglish, contentSignOFunAreaOverviewGerman)
 showPopup(targetZoneMoai, targetRectangleMoai, quotes_moai)
-
-
