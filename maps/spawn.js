@@ -44,7 +44,8 @@ var quotes_phrases= [
 	'Who fights can lose, who doesn’t fight has already lost.',
 	'The proof of the pudding is in the eating.',
 	'Fine feathers make fine birds.',
-	'You cannot find peace by avoiding life.'
+	'You cannot find peace by avoiding life.',
+	'If 42 is the answer to everything, then -42 is the answer to nothing.'
 	]
 
 function showPopup(target_zone, target_rectangle, popup_content) {
