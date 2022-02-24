@@ -34,9 +34,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"UnderTheOldOak",
-                 "type":"string",
-                 "value":"SilentArea"
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -108,7 +108,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"popup_oaldoak"
+                 "value":"popup_oldoak"
                 }],
          "type":"tilelayer",
          "visible":true,
