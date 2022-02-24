@@ -957,15 +957,15 @@
                  "y":245
                 }, 
                 {
-                 "height":180.015522677662,
+                 "height":180,
                  "id":30,
                  "name":"PopupOldOak",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":124.091438273102,
-                 "x":4.28062090710645,
-                 "y":838.484477322338
+                 "width":150,
+                 "x":2.99999999999999,
+                 "y":828
                 }],
          "opacity":1,
          "type":"objectgroup",
