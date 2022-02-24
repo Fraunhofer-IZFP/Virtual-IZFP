@@ -31,7 +31,7 @@ var contentSignOverviewGerman = ['Orientierung:\n\nNord-Westen: Bibliothek\nNord
 
 var targetZoneOldOak = 'popup_oldoak'
 var targetRectangleOldOak = 'PopupOldOak'
-//var targetTriggerZoneOldOak = 'popup_oldoak'
+var targetTriggerZoneOldOak = 'popup_oldoak'
 
 
 var isEnglish = false
