@@ -526,7 +526,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Mensaar Speisplan"
+                 "value":"Mensaar Speiseplan"
                 }],
          "type":"tilelayer",
          "visible":true,
