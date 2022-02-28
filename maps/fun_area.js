@@ -1,17 +1,19 @@
 var targetRectangleSignFunAreaEntry = 'PopupSignFunAreaEntry'
 var targetRectangleSignFunAreaOverview = 'PopupSignFunAreaOverview'
+var targetRectangleSignFunAreaOverview = 'PopupSignFunBarrelInfo'
 // ToDo:
 // var targetRectangleSignBeach = 'PopupSignBeach'
-// var targetRectangleSignMoaiIsland = 'PopupSignMoaiIsland'
+var targetRectangleSignMoaiIsland = 'PopupSignMoaiIsland'
 
 var targetTriggerZoneSignFunAreaEntry = 'popup_sign_fun_area_entry'
 var targetTriggerZoneSignFunAreaOverview = 'popup_sign_fun_area_overview'
+var targetTriggerZoneSignFunAreaOverview = 'popup_sign_barrel_info'
 // ToDo:
 // var targetTriggerZoneSignBeach = 'popup_sign_beach'
-// var targetTriggerZoneSignMoaiIsland = 'popup_sign_moai_island'
+var targetTriggerZoneSignMoaiIsland = 'popup_sign_moai_island'
 
-//var contentSignMoaiIslandEnglish = ['To the Moai-Island']
-//var contentSignMoaiIslandGerman = ['Zur Moai-Insel']
+var contentSignMoaiIslandEnglish = ['To the Moai-Island']
+var contentSignMoaiIslandGerman = ['Zur Moai-Insel']
 // ToDo:
 // var contentSignBeachEnglish = ['To the beach']
 // var contentSignBeachGerman = ['Zum Strand']
@@ -21,6 +23,9 @@ var contentSignFunAreaEntryGerman = ['Willkommen in der IZFP-"Spaß"-Ecke.\nBetr
 
 var contentSignFunAreaOverviewEnglish = ['Orientation:\n\nNorth-west: To the beach\nSouth-west: Moai island\nCenter: Game events and meetup\nNorth-east: Back to town center']
 var contentSignFunAreaOverviewGerman = ['Orientierung:\n\nNord-Westen: Zum Strand\nSüd-Westen: Die Moai Insel\nZentrum: Spielveranstaltungen und Treffen\nNord-Osten: Zurück zum Zentrum']
+
+var contentSignBarrelInfoEnglish = ['Vorsicht vor den Fässern!']
+var contentSignBarrelInfoGerman = ['Beware of the barrels!']
 
 var targetZoneMoai = 'popup_Moai'
 var targetRectangleMoai = 'PopupMoai'
