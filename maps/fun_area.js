@@ -1,6 +1,6 @@
 var targetRectangleSignFunAreaEntry = 'PopupSignFunAreaEntry'
 var targetRectangleSignFunAreaOverview = 'PopupSignFunAreaOverview'
-var targetRectangleSignFunAreaOverview = 'PopupSignFunBarrelInfo'
+var targetRectangleSignFunAreaOverview = 'PopupSignBarrelInfo'
 // ToDo:
 // var targetRectangleSignBeach = 'PopupSignBeach'
 var targetRectangleSignMoaiIsland = 'PopupSignMoaiIsland'
@@ -27,7 +27,7 @@ var contentSignFunAreaOverviewGerman = ['Orientierung:\n\nNord-Westen: Zum Stran
 var contentSignBarrelInfoEnglish = ['Vorsicht vor den Fässern!']
 var contentSignBarrelInfoGerman = ['Beware of the barrels!']
 
-var targetZoneMoai = 'popup_Moai'
+var targetZoneMoai = 'popup_moai'
 var targetRectangleMoai = 'PopupMoai'
 var targetTriggerZoneMoai = 'popup_moai'
 
