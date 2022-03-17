@@ -1,32 +1,32 @@
 // message texts
 
-msg_orient = ['Orientation:\n\nNorthwest: Orchard\nNortheast: Forest Lodge, Meeting Area\nEast: Forest Camp\nSoutheast: Cliffs\nSouthwest: Castle Music Room\nWest: Castle Red Table Room\nCenter: silent area']
-msg_silent_area = ['Bridge to silent area']
-msg_forest_lodge = ['Forest Lodge']
-msg_music_room = ['Music room']
-msg_throne_room = ['The Red Table Room']
-msg_storage = ['Storage']
-msg_castle_garden = ['The Orchard']
-msg_picknick = ['The Forest Workspace']
-msg_coworking = ['Co-working and chill-out areas']
-msg_cliff = ['The Cliffs']
-msg_office_west = ['To the Western Offices']
+var msg_orient = ['Orientation:\n\nNorthwest: Orchard\nNortheast: Forest Lodge, Meeting Area\nEast: Forest Camp\nSoutheast: Cliffs\nSouthwest: Castle Music Room\nWest: Castle Red Table Room\nCenter: silent area']
+var msg_silent_area = ['Bridge to silent area']
+var msg_forest_lodge = ['Forest Lodge']
+var msg_music_room = ['Music room']
+var msg_throne_room = ['The Red Table Room']
+var msg_storage = ['Storage']
+var msg_castle_garden = ['The Orchard']
+var msg_picknick = ['The Forest Workspace']
+var msg_coworking = ['Co-working and chill-out areas']
+var msg_cliff = ['The Cliffs']
+var msg_office_west = ['To the Western Offices']
 
 
-msg_orient_de = ['Orientierung:\n\nNordwest: Obstgarten\nNordost: Waldhütte, Meetings\nOst: Waldplatz\nSüdost: Die Klippen\nSüdwest: Musikzimmer Schloss\nWesten: Roter Tisch Schloss\nZentrum: Stille']
-msg_silent_area_de = ['Brücke zum Ruhebereich']
-msg_forest_lodge_de = ['Waldhütte']
-msg_music_room_de = ['Musikzimmer im Schloss']
-msg_throne_room_de = ['Roter Tisch im Schloss']
-msg_storage_de = ['Lagerraum']
-msg_castle_garden_de = ['Obstgarten hinterm Schloss']
-msg_picknick_de = ['Arbeitsbereich Waldplatz']
-msg_coworking_de = ['Co-working und chill-out Bereiche auf dem Berg']
-msg_cliff_de = ['Die Klippen']
-msg_office_west_de = ['Zu den westlichen Büros']
+var msg_orient_de = ['Orientierung:\n\nNordwest: Obstgarten\nNordost: Waldhütte, Meetings\nOst: Waldplatz\nSüdost: Die Klippen\nSüdwest: Musikzimmer Schloss\nWesten: Roter Tisch Schloss\nZentrum: Stille']
+var msg_silent_area_de = ['Brücke zum Ruhebereich']
+var msg_forest_lodge_de = ['Waldhütte']
+var msg_music_room_de = ['Musikzimmer im Schloss']
+var msg_throne_room_de = ['Roter Tisch im Schloss']
+var msg_storage_de = ['Lagerraum']
+var msg_castle_garden_de = ['Obstgarten hinterm Schloss']
+var msg_picknick_de = ['Arbeitsbereich Waldplatz']
+var msg_coworking_de = ['Co-working und chill-out Bereiche auf dem Berg']
+var msg_cliff_de = ['Die Klippen']
+var msg_office_west_de = ['Zu den westlichen Büros']
 
 
-quotes_goethe = [
+var quotes_goethe = [
 	'Die beste Bildung findet ein gescheiter Mensch auf Reisen.\n\nJohann Wolfgang von Goethe',
 	'Es hört doch nur jeder, was er versteht.\n\nJohann Wolfgang von Goethe',
 	'Mit dem Wissen wächst der Zweifel.\nJohann Wolfgang von Goethe',
