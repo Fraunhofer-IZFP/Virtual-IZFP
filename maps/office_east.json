@@ -547,6 +547,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Hangout1"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -565,6 +570,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"Hangout2"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
